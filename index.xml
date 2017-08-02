@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://scgmlz.github.io/scgdoc-hugo/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2017 15:40:23 +0200</lastBuildDate>
+    
+	<atom:link href="https://scgmlz.github.io/scgdoc-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Second</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/post/second/</link>
+      <pubDate>Fri, 30 Jun 2017 15:40:23 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/post/second/</guid>
+      <description>second post</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/post/first/</link>
+      <pubDate>Fri, 30 Jun 2017 15:37:37 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/post/first/</guid>
+      <description>my first post 1.1
+https://themes.gohugo.io/theme/greyshade/post/creating-a-new-theme/
+https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003
+http://zackofalltrades.com/notes/2014/05/hugo-from-scratch/
+https://gohugo.io/variables/</description>
+    </item>
+    
+    <item>
+      <title>Blah</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/another-section/blah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/another-section/blah/</guid>
+      <description>blah</description>
+    </item>
+    
+    <item>
+      <title>Bloop</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/another-section/bloop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/another-section/bloop/</guid>
+      <description>bloop xxx</description>
+    </item>
+    
+    <item>
+      <title>Test 1</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/testing/test-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/testing/test-1/</guid>
+      <description>test 1</description>
+    </item>
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/testing/test-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/testing/test-2/</guid>
+      <description>test 2</description>
+    </item>
+    
+  </channel>
+</rss>
