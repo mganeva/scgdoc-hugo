@@ -1,72 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Home Page on My New Hugo Site</title>
     <link>https://scgmlz.github.io/scgdoc-hugo/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Home Page on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2017 15:40:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 03 Aug 2017 08:30:10 +0200</lastBuildDate>
     
 	<atom:link href="https://scgmlz.github.io/scgdoc-hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Second</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/post/second/</link>
-      <pubDate>Fri, 30 Jun 2017 15:40:23 +0200</pubDate>
+      <title>Get started</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/post/second/</guid>
-      <description>second post</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
+      <description>This is content/documentation/getstarted.md file.</description>
     </item>
     
     <item>
-      <title>First</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/post/first/</link>
-      <pubDate>Fri, 30 Jun 2017 15:37:37 +0200</pubDate>
+      <title>Linux</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/post/first/</guid>
-      <description>my first post 1.2
-https://themes.gohugo.io/theme/greyshade/post/creating-a-new-theme/
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</guid>
+      <description>This is content/documentation/Installation/linux.md file.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial #1</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</guid>
+      <description>This is content/documentation/Tutorials/tutorial1.md file.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial #2</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</guid>
+      <description>This is content/documentation/Tutorials/tutorial2.md file.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial #3</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</guid>
+      <description>This is content/documentation/Tutorials/MoreTutorials/tutorial3.md file.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial #4</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</guid>
+      <description>This is content/documentation/Tutorials/MoreTutorials/tutorial4.md file.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</guid>
+      <description>This is content/documentation/welcome.md file.</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</guid>
+      <description>This is content/documentation/Installation/windows.md file.</description>
+    </item>
+    
+    <item>
+      <title>Post 02</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/post/post-02/</link>
+      <pubDate>Thu, 03 Aug 2017 08:30:10 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/post/post-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post number one</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/post/post-01/</link>
+      <pubDate>Thu, 03 Aug 2017 08:30:08 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/post/post-01/</guid>
+      <description>Clever thoughts here.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/about/</link>
+      <pubDate>Sun, 24 May 2015 18:51:50 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/about/</guid>
+      <description>Useful links https://themes.gohugo.io/theme/greyshade/post/creating-a-new-theme/
 https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003
 http://zackofalltrades.com/notes/2014/05/hugo-from-scratch/
-https://gohugo.io/variables/</description>
+https://gohugo.io/variables/
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</description>
     </item>
     
     <item>
-      <title>Blah</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/another-section/blah/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>News</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/news/</link>
+      <pubDate>Sun, 24 May 2015 18:51:50 +0200</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/another-section/blah/</guid>
-      <description>blah</description>
-    </item>
-    
-    <item>
-      <title>Bloop</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/another-section/bloop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/another-section/bloop/</guid>
-      <description>bloop xxx</description>
-    </item>
-    
-    <item>
-      <title>Test 1</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/testing/test-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/testing/test-1/</guid>
-      <description>test 1</description>
-    </item>
-    
-    <item>
-      <title>Test 2</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/testing/test-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/testing/test-2/</guid>
-      <description>test 2</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/news/</guid>
+      <description>This is &amp;ldquo;content/news.md&amp;rdquo;.</description>
     </item>
     
   </channel>

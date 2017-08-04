@@ -3,25 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/post/second/</loc>
-    <lastmod>2017-06-30T15:40:23+02:00</lastmod>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/post/first/</loc>
-    <lastmod>2017-06-30T15:37:37+02:00</lastmod>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/another-section/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/another-section/blah/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/another-section/bloop/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/post/post-02/</loc>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/post/post-01/</loc>
+    <lastmod>2017-08-03T08:30:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/about/</loc>
+    <lastmod>2015-05-24T18:51:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/news/</loc>
+    <lastmod>2015-05-24T18:51:50+02:00</lastmod>
   </url>
   
   <url>
@@ -31,30 +77,30 @@
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/</loc>
-    <lastmod>2017-06-30T15:40:23+02:00</lastmod>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/categories/news/</loc>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/post/</loc>
-    <lastmod>2017-06-30T15:40:23+02:00</lastmod>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/tags/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/tags/release/</loc>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/testing/test-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/testing/test-2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/testing/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/tags/</loc>
+    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

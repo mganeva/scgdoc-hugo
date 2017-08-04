@@ -10,5 +10,14 @@
 	<atom:link href="https://scgmlz.github.io/scgdoc-hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>News</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/categories/news/</link>
+      <pubDate>Thu, 03 Aug 2017 08:30:10 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/categories/news/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
