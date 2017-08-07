@@ -1,5 +1,0 @@
-baseURL = "https://scgmlz.github.io/scgdoc-hugo/"
-theme = "zafta"
-languageCode = "en-us"
-title = "My New Hugo Site"
-MetaDataFormat = "toml"
