@@ -7,11 +7,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</loc>
   </url>
   
   <url>
@@ -19,15 +15,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</loc>
   </url>
   
   <url>
@@ -35,7 +23,31 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial4/</loc>
   </url>
   
   <url>
@@ -43,11 +55,31 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial5/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial9/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/</loc>
   </url>
   
   <url>

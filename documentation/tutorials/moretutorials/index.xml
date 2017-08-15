@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MoreTutorials index on My New Hugo Site</title>
+    <title>More tutorials on My New Hugo Site</title>
     <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/</link>
-    <description>Recent content in MoreTutorials index on My New Hugo Site</description>
+    <description>Recent content in More tutorials on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -20,7 +20,7 @@
     </item>
     
     <item>
-      <title>Tutorial #4</title>
+      <title>Very long title to see how it looks in the menu</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

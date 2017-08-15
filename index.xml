@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home Page on My New Hugo Site</title>
+    <title>Home on My New Hugo Site</title>
     <link>https://scgmlz.github.io/scgdoc-hugo/</link>
-    <description>Recent content in Home Page on My New Hugo Site</description>
+    <description>Recent content in Home on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Aug 2017 08:30:10 +0200</lastBuildDate>
@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Get started</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</link>
+      <title>General markdown</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
-      <description>This is content/documentation/getstarted.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</guid>
+      <description>Tutorial demonstrates basic markdown usage.
+ sections links lists  </description>
     </item>
     
     <item>
@@ -30,21 +31,12 @@
     </item>
     
     <item>
-      <title>Tutorial #1</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</link>
+      <title>Overview</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</guid>
-      <description>This is content/documentation/Tutorials/tutorial1.md file.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial #2</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</guid>
-      <description>This is content/documentation/Tutorials/tutorial2.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
+      <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
     </item>
     
     <item>
@@ -57,7 +49,36 @@
     </item>
     
     <item>
-      <title>Tutorial #4</title>
+      <title>Windows</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</guid>
+      <description>This is content/documentation/Installation/windows.md file.</description>
+    </item>
+    
+    <item>
+      <title>Get started</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
+      <description>Please explain how to start.
+ How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  </description>
+    </item>
+    
+    <item>
+      <title>Insert images</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</guid>
+      <description>This tutorial explains, how to insert image in the text.
+ standalone image between two paragraphs, centered image wrapped by the text same, provided with a caption bigger image scaled down, linked to original size image 2 images next to each other, provided with caption  </description>
+    </item>
+    
+    <item>
+      <title>Very long title to see how it looks in the menu</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -66,21 +87,75 @@
     </item>
     
     <item>
-      <title>Welcome</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</link>
+      <title>Python code highlighted</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/welcome/</guid>
-      <description>This is content/documentation/welcome.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial3/</guid>
+      <description>This tutorial explains, how to insert Python snippets in the text with and without line numbering.</description>
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</link>
+      <title>Python code embedded</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</guid>
-      <description>This is content/documentation/Installation/windows.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial4/</guid>
+      <description>This tutorial explains how to embed Python code from a script, located in same directory.</description>
+    </item>
+    
+    <item>
+      <title>Latex formulas</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial5/</guid>
+      <description>How to insert latex.</description>
+    </item>
+    
+    <item>
+      <title>Allerts, notices and panels</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</guid>
+      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page,</description>
+    </item>
+    
+    <item>
+      <title>Action buttons</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</guid>
+      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)</description>
+    </item>
+    
+    <item>
+      <title>Labels and icons</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</guid>
+      <description>Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.</description>
+    </item>
+    
+    <item>
+      <title>Image gallery</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial9/</guid>
+      <description>Image gallery for screenshots and similar. Grid of image 3x3, click on image starts gallery.</description>
+    </item>
+    
+    <item>
+      <title>Tabs embedded, accordions</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</guid>
+      <description>A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
     </item>
     
     <item>
