@@ -12,23 +12,13 @@
     
     
     <item>
-      <title>General markdown</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</link>
+      <title>Basic text elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/textelements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</guid>
-      <description>Tutorial demonstrates basic markdown usage. The content of this page will be shown via shortcode.
-   Introduction My Heading  My Subheading      sections links lists  Introduction One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-My Heading He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</guid>
-      <description>This is content/documentation/Installation/linux.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/textelements/</guid>
+      <description>Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
+ Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
@@ -38,24 +28,6 @@ My Heading He lay on his armour-like back, and if he lifted his head a little he
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
       <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
-    </item>
-    
-    <item>
-      <title>Tutorial #3</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</guid>
-      <description>This is content/documentation/Tutorials/MoreTutorials/tutorial3.md file.</description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</guid>
-      <description>This is content/documentation/Installation/windows.md file.</description>
     </item>
     
     <item>
@@ -79,12 +51,13 @@ My Heading He lay on his armour-like back, and if he lifted his head a little he
     </item>
     
     <item>
-      <title>Very long title to see how it looks in the menu</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</link>
+      <title>List elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/listelements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</guid>
-      <description>This is content/documentation/Tutorials/MoreTutorials/tutorial4.md file.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/listelements/</guid>
+      <description>Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
+Unordered list  item 1 item 2  Another item Another item Another item  item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b   Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>

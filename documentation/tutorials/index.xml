@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>General markdown</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</guid>
-      <description>Tutorial demonstrates basic markdown usage. The content of this page will be shown via shortcode.
-   Introduction My Heading  My Subheading      sections links lists  Introduction One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-My Heading He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</description>
-    </item>
-    
-    <item>
       <title>Insert images</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

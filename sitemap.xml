@@ -3,27 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/textelements/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/linux/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/windows/</loc>
   </url>
   
   <url>
@@ -35,11 +27,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/tutorial4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/installation/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/listelements/</loc>
   </url>
   
   <url>
@@ -76,10 +64,6 @@
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/moretutorials/</loc>
   </url>
   
   <url>
