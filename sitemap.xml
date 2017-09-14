@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/codehighlight/basichighlight/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basicmarkdown/</loc>
   </url>
   
@@ -19,11 +23,11 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/codehighlight/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
   </url>
   
   <url>
@@ -31,11 +35,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial3/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/codehighlight/embeddedfiles/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial4/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/codehighlight/clientside/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial2/</loc>
   </url>
   
   <url>
