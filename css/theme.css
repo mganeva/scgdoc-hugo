@@ -1,0 +1,436 @@
+/*!
+ * Clean Blog v1.0.5 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	font-family: "Roboto",sans-serif;	
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #404040
+}
+p {
+	margin: 15px 0px 15px 0px;
+}
+p a {
+	text-decoration: underline
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 800
+}
+a {
+	color: #404040
+}
+a:hover, a:focus {
+	color: #0085a1
+}
+a img:hover, a img:focus {
+	cursor: zoom-in
+}
+blockquote {
+	color: gray;
+	font-style: italic
+}
+hr.small {
+	max-width: 100px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: #fff
+}
+
+.intro-header .post-heading, .intro-header .page-heading {
+	padding: 5px 0 50px;
+	color: #fff;
+	text-align: center
+}
+
+.post-preview>a {
+	color: #404040
+}
+.post-preview>a:hover, .post-preview>a:focus {
+	text-decoration: none;
+	color: #0085a1
+}
+.post-preview>a>.post-title {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+.post-preview>a>.post-subtitle {
+	margin: 0;
+	font-weight: 300;
+	margin-bottom: 10px
+}
+.post-preview>.post-meta {
+	color: gray;
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0
+}
+.post-preview>.post-meta>a {
+	text-decoration: none;
+	color: #404040
+}
+.post-preview>.post-meta>a:hover, .post-preview>.post-meta>a:focus {
+	color: #0085a1;
+	text-decoration: underline
+}
+@media only screen and (min-width:768px) {
+	.post-preview>a>.post-title {
+		font-size: 36px
+	}
+}
+.section-heading {
+	font-size: 36px;
+	margin-top: 60px;
+	font-weight: 700
+}
+.caption {
+	text-align: center;
+	font-size: 14px;
+	padding: 10px;
+	font-style: italic;
+	margin: 0;
+	display: block;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px
+}
+footer {
+	padding: 50px 0 65px
+}
+footer .list-inline {
+	margin: 0;
+	padding: 0
+}
+footer .copyright {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 0
+}
+.floating-label-form-group {
+	font-size: 14px;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #eee
+}
+.floating-label-form-group input, .floating-label-form-group textarea {
+	z-index: 1;
+	position: relative;
+	padding-right: 0;
+	padding-left: 0;
+	border: none;
+	border-radius: 0;
+	font-size: 1.5em;
+	background: 0 0;
+	box-shadow: none !important;
+	resize: none
+}
+.floating-label-form-group label {
+	display: block;
+	z-index: 0;
+	position: relative;
+	top: 2em;
+	margin: 0;
+	font-size: .85em;
+	line-height: 1.764705882em;
+	vertical-align: middle;
+	vertical-align: baseline;
+	opacity: 0;
+	-webkit-transition: top .3s ease, opacity .3s ease;
+	-moz-transition: top .3s ease, opacity .3s ease;
+	-ms-transition: top .3s ease, opacity .3s ease;
+	transition: top .3s ease, opacity .3s ease
+}
+.floating-label-form-group::not(:first-child) {
+	padding-left: 14px;
+	border-left: 1px solid #eee
+}
+.floating-label-form-group-with-value label {
+	top: 0;
+	opacity: 1
+}
+.floating-label-form-group-with-focus label {
+	color: #0085a1
+}
+form .row:first-child .floating-label-form-group {
+	border-top: 1px solid #eee
+}
+.btn {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	border-radius: 0;
+	padding: 15px 25px
+}
+.btn-lg {
+	font-size: 16px;
+	padding: 25px 35px
+}
+.btn-default:hover, .btn-default:focus {
+	background-color: #0085a1;
+	border: 1px solid #0085a1;
+	color: #fff
+}
+.pager {
+	margin: 20px 0 0
+}
+.pager li>a, .pager li>span {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	padding: 15px 25px;
+	background-color: #fff;
+	border-radius: 0
+}
+.pager li>a:hover, .pager li>a:focus {
+	color: #fff;
+	background-color: #0085a1;
+	border: 1px solid #0085a1
+}
+.pager .disabled>a, .pager .disabled>a:hover, .pager .disabled>a:focus, .pager .disabled>span {
+	color: gray;
+	background-color: #404040;
+	cursor: not-allowed
+}
+::-moz-selection {
+	color: #fff;
+	text-shadow: none;
+	background: #0085a1
+}
+::selection {
+	color: #fff;
+	text-shadow: none;
+	background: #0085a1
+}
+img::selection {
+	color: #fff;
+	background: 0 0
+}
+img::-moz-selection {
+	color: #fff;
+	background: 0 0
+}
+body {
+	webkit-tap-highlight-color: #0085a1
+}
+
+/* ------------------------------------------------------------- *
+ *  Documentation header
+/* ------------------------------------------------------------- */
+
+.icon-right {
+  background: url("../img/icon-right.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  margin-left: 40px; }
+
+.icon-git {
+  background: url("../img/icon-git.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 30px; }
+
+.hero {
+  background: url("../img/site-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.navbar {
+  padding: 10px 0 10px 0; }
+  .navbar .brand img {
+    padding-top: 11px; }
+  .navbar li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 20px; }
+  .navbar li a:hover, .navbar li a:focus {
+    background-color: transparent;
+    color: #7dc855;
+    text-decoration: none;
+    outline: medium none; }
+  .navbar .nav-btn {
+    padding: 10px 27px !important;
+    border: 2px solid #7dc855;
+    border-radius: 3px;
+    margin-top: 5px; }
+  .navbar .nav-btn:hover {
+    color: #fff;
+    background: #7dc855;
+    opacity: 0.9; }
+
+.navbar-toggle {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  float: right;
+  font-size: 31px;
+  margin-right: 15px;
+  margin-top: -15px;
+  position: relative; }
+
+
+.masthead {
+  padding: 100px 0 80px 0;
+  text-align: center; }
+  .masthead h1 {
+    color: #fff; }
+  .masthead p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+    width: 70%; }
+  .masthead .search-field {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0px  30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px; }
+  .masthead form {
+    position: relative;
+    margin-top: 10px; }
+  .masthead form button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #86939e; }
+  .masthead .btn-hero {
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px; }
+  .masthead .btn-hero:hover {
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color 500ms ease-out 0.2s;
+    -moz-transition: background-color 500ms ease-out 0.2s;
+    -o-transition: background-color 500ms ease-out 0.2s;
+    transition: background-color 500ms ease-out 0.2s; }
+
+.single-masthead {
+  padding: 0 0 40px; }
+  .single-masthead .btn-hero {
+    margin-top: 20px;
+    float: right; }
+
+/* ------------------------------------------------------------- *
+ *  Item list for documentation menubar
+/* ------------------------------------------------------------- */
+
+.widget {
+  border: 3px solid #f7f7f7;
+  border-radius: 5px;
+  padding: 25px; }
+
+/* ------------------------------------------------------------- *
+ *  Item list for documentation menubar
+/* ------------------------------------------------------------- */
+
+ul.doctree ul {
+    display: none;
+}
+
+ul.doctree li.parent > ul, li.active > ul {
+    display: block;
+}
+
+ul.doctree, ul.doctree ul, ul.doctree li {
+    list-style: none;
+	padding-left: 1.0em;
+	color: #404040;
+}
+
+ul.doctree li.active, ul.doctree li.active > a {
+    color: #00a4f0 !important;
+}
+
+ul.doctree .liOpened:before {
+	cursor: pointer;
+	content: '\f147';
+	margin-right: .25em
+}
+
+ul.doctree .liClosed:before {
+	cursor: pointer;
+	content: '\f196';
+	margin-right: .25em
+}
+
+ul.doctree .liSingle:before {
+	cursor: pointer;
+	content: '\25E6';
+	margin-right: .25em
+}
+
+/* ------------------------------------------------------------- *
+ *  Standard unordered and ordered lists
+/* ------------------------------------------------------------- */
+
+div > ul, div > ol {
+    padding-left: 1.0em;
+}
+
+div > ul ul, div > ol ul {
+    padding-left: 1.0em;
+}
+
+div > ul ol, div > ol ol {
+    padding-left: 1.0em;
+}
+
+/* ------------------------------------------------------------- *
+ *  breadcrumb
+/* ------------------------------------------------------------- */
+
+.breadcrumb {
+	margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------- *
+ *  Table of page's content
+ *  (see discussion https://github.com/gohugoio/hugo/issues/1778)
+/* ------------------------------------------------------------- */
+
+#TableOfContents > ul {
+	list-style: none;
+    padding-left: 0em
+}
+
+#TableOfContents > ul  > li {
+    list-style: none;
+}
+
+#TableOfContents > ul  > li > ul {
+    padding-left: 1.0em
+}
+
+#TableOfContents > ul  > li > ul > li > ul{
+    padding-left: 1.0em
+}
