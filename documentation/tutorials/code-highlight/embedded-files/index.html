@@ -7,10 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Documentation -- My New Hugo Site</title>
+<title>Python code embedded -- My New Hugo Site</title>
 
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" /> 
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/bootstrap.min.css" rel="stylesheet">
 
@@ -109,7 +107,28 @@
   
 
 
-  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > Documentation
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/'>Tutorials</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/'>Code highlight</a> > Python code embedded
+
+
+ 
+
+
+ 
+
+
+ 
 
 
  
@@ -123,10 +142,44 @@
   <div class="row">
     <div class="col-lg-8">
       
-    <h5> DEBUG: scgclean/layouts/documentation/list.html </h5>
-  <p>This is &ldquo;content/documentation/_index.md&rdquo; file.</p>
 
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &ldquo;Lorem ipsum dolor sit amet..&rdquo;, comes from a line in section 1.10.32.</p>
+	
+
+<p>This tutorial explains how to embed Python code from a script, located in certain directory.</p>
+
+<h4 id="highlight-the-file-located-in-static-directory">Highlight the file located in static directory</h4>
+
+
+
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #0000ff">import</span> sys
+<span style="color: #0000ff">import</span> numpy
+
+
+<span style="color: #0000ff">class</span> <span style="color: #2b91af">Base</span>:
+    <span style="color: #a31515">&quot;&quot;&quot;</span>
+<span style="color: #a31515">    Base class</span>
+<span style="color: #a31515">    &quot;&quot;&quot;</span>
+    <span style="color: #0000ff">def</span> __init__(self):
+        self.x = None
+        self.y = numpy.sin(numpy.pi/2.0)
+
+    <span style="color: #0000ff">def</span> value(self):
+        <span style="color: #0000ff">return</span> self.y
+
+
+<span style="color: #0000ff">def</span> say_hello():
+    <span style="color: #a31515">&quot;&quot;&quot;</span>
+<span style="color: #a31515">    Prints &#39;Hello World&#39; message</span>
+<span style="color: #a31515">    &quot;&quot;&quot;</span>
+    b = Base()
+    <span style="color: #0000ff">print</span>(<span style="color: #a31515">&quot;Hello World&quot;</span>, b.value())
+
+
+<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
+    say_hello()
+</pre></div>
+
+
 
 
     </div>
@@ -149,7 +202,7 @@
 
     <li data-nav-id="/documentation/" class="dd-item 
         parent
-        active
+        
         
         ">
 
@@ -225,7 +278,7 @@
     
 
     <li data-nav-id="/documentation/tutorials/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -240,7 +293,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/">
         <span>Tutorials</span>
@@ -350,7 +403,7 @@
     
 
     <li data-nav-id="/documentation/tutorials/code-highlight/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -365,7 +418,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/">
         <span>Code highlight</span>
@@ -404,7 +457,7 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/code-highlight/embedded-files/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/code-highlight/embedded-files/" class="dd-item active">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/">
         <span>Python code embedded</span> 
