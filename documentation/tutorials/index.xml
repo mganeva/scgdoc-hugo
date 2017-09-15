@@ -11,12 +11,14 @@
     
     
     <item>
-      <title>Latex formulas</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial5/</link>
+      <title>Using Latex</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/using-latex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial5/</guid>
-      <description>How to insert latex.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/using-latex/</guid>
+      <description>Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
     </item>
     
     <item>
@@ -44,15 +46,6 @@
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</guid>
       <description>Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.</description>
-    </item>
-    
-    <item>
-      <title>Image gallery</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial9/</guid>
-      <description>Image gallery for screenshots and similar. Grid of image 3x3, click on image starts gallery.</description>
     </item>
     
     <item>
