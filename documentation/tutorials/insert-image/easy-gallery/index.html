@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Insert via markdown -- My New Hugo Site</title>
+<title>Easy gallery -- My New Hugo Site</title>
 
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/bootstrap.min.css" rel="stylesheet">
@@ -121,7 +121,7 @@
   
 
 
-  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/'>Tutorials</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/'>Insert images</a> > Insert via markdown
+  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/'>Tutorials</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/'>Insert images</a> > Easy gallery
 
 
  
@@ -147,25 +147,279 @@
 
 	
 
-<h4 id="from-static-directory">From static directory</h4>
+
+
+
+
+  
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<h4 id="gallery-of-specific-files">Gallery of specific files</h4>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-<p><img src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" alt="Example image" /></p>
+<p>
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/anisopyramid.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/anisopyramid.png" alt="Anisopyramid"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/anisopyramid.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Anisopyramid</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/box.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/box.png" alt="Box"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/box.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Box</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/cone6.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cone6.png" alt="Cone6"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cone6.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Cone6</p>
+      </figcaption>
+  </figure>
+</div>
+
+</div>
+</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-<h4 id="from-local-directory">From local directory</h4>
+<h4 id="gallery-of-specific-files-caption-styled">Gallery of specific files (caption styled)</h4>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-<p><img src="../cylinder_640.png" alt="Example image" /></p>
+<p>
+<div class="gallery caption-position-bottom caption-effect-none hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
 
-<h4 id="centering-image">Centering image</h4>
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/cone.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cone.png" alt="Cone"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cone.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Cone</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/cubeoct.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cubeoct.png" alt="Cubeoct"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cubeoct.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Cubeoct</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images/cylinder.png');">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cylinder.png" alt="Cylinder"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images/cylinder.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Cylinder</p>
+      </figcaption>
+  </figure>
+</div>
+
+</div>
+</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-<p><img src="../cylinder_320.png#center" alt="Example image" /></p>
+<h4 id="gallery-based-on-directory-content">Gallery based on directory content</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+
+<p>
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//anisopyramid.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//anisopyramid.png" alt="Anisopyramid" />
+				    </div>
+			      <figcaption>
+		          <p>Anisopyramid</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//anisopyramid.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//box.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//box.png" alt="Box" />
+				    </div>
+			      <figcaption>
+		          <p>Box</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//box.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//cone.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cone.png" alt="Cone" />
+				    </div>
+			      <figcaption>
+		          <p>Cone</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cone.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//cone6.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cone6.png" alt="Cone6" />
+				    </div>
+			      <figcaption>
+		          <p>Cone6</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cone6.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//cubeoct.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cubeoct.png" alt="Cubeoct" />
+				    </div>
+			      <figcaption>
+		          <p>Cubeoct</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cubeoct.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//cylinder.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cylinder.png" alt="Cylinder" />
+				    </div>
+			      <figcaption>
+		          <p>Cylinder</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//cylinder.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//dodecahedron.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//dodecahedron.png" alt="Dodecahedron" />
+				    </div>
+			      <figcaption>
+		          <p>Dodecahedron</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//dodecahedron.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//dodecahedron2.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//dodecahedron2.png" alt="Dodecahedron2" />
+				    </div>
+			      <figcaption>
+		          <p>Dodecahedron2</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//dodecahedron2.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://scgmlz.github.io/scgdoc-hugo//files/ff_images//ellipscylinder.png');" >
+				      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//ellipscylinder.png" alt="Ellipscylinder" />
+				    </div>
+			      <figcaption>
+		          <p>Ellipscylinder</p>
+			      </figcaption>
+				    <a href="https://scgmlz.github.io/scgdoc-hugo/files/ff_images//ellipscylinder.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
     </div>
@@ -529,7 +783,7 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/insert-image/basic-insert/" class="dd-item active">
+      <li data-nav-id="/documentation/tutorials/insert-image/basic-insert/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/basic-insert/">
         <span>Insert via markdown</span> 
@@ -567,7 +821,7 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/insert-image/easy-gallery/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/insert-image/easy-gallery/" class="dd-item active">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/easy-gallery/">
         <span>Easy gallery</span> 
@@ -774,6 +1028,10 @@
     
     <script src="https://scgmlz.github.io/scgdoc-hugo//js/jquery.min.js"></script>
 
+    
+      <script src="https://scgmlz.github.io/scgdoc-hugo//js/load-photoswipe.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
     
 
     
