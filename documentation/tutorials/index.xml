@@ -23,29 +23,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
     
     <item>
       <title>Allerts, notices and panels</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</guid>
-      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page,</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</guid>
+      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
     </item>
     
     <item>
       <title>Action buttons</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</guid>
-      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</guid>
+      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
       <title>Labels and icons</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</guid>
-      <description>Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</guid>
+      <description> Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
     </item>
     
     <item>
@@ -55,6 +61,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</guid>
       <description>A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Youtube and staff</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</guid>
+      <description>Tutorial explains how to embed video.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>
     
   </channel>

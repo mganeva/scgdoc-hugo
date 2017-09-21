@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BornAgain on My New Hugo Site</title>
+    <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/</link>
+    <description>Recent content in BornAgain on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to BornAgain</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</guid>
+      <description>Welcome to BornAgain BornAgain is a software package to simulate and fit small-angle scattering at grazing incidence. It supports analysis of both X-ray (GISAXS) and neutron (GISANS) data. Its name, BornAgain, indicates the central role of the distorted wave Born approximation in the physical description of the scattering process. The software provides a generic framework for modeling multilayer samples with smooth or rough interfaces and with various types of embedded nanoparticles.</description>
+    </item>
+    
+    <item>
+      <title>Architectural overview</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</guid>
+      <description>Architectural overview BornAgain is an open source and a multi-platform framework available in Windows, MacOS and Linux. It is developed in C++ and provided with Python bindings. The overall size of the project is about 180k lines of code.
+The Big Picture BornAgain is designed to be immediately useful for users with little experience in GISAS simulations while being flexible enough to fulfill requests of advanced users. The figure below represents the set of requirements and practices that have informed our architectural choices.</description>
+    </item>
+    
+  </channel>
+</rss>

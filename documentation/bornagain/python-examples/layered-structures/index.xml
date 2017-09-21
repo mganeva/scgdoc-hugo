@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layered structures on My New Hugo Site</title>
+    <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/</link>
+    <description>Recent content in Layered structures on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buried particles</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</guid>
+      <description>Buried particles Scattering from a sample containing spherical embedded particles.
+ From top to bottom, the sample is composed of the air layer, an intermediate material layer, and the substrate. The particles are 10.2-nanometer-radius spheres. They are placed vertically in the middle of the intermediate layer. The depth to place the spheres is measured between the top of the layer and the bottom of the particles. There is no interference between the scattered waves.</description>
+    </item>
+    
+    <item>
+      <title>Correlated roughness</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/</guid>
+      <description>Correlated roughness Scattering from a multilayered sample with correlated roughness.
+ The sample is composed of a substrate on which is sitting a stack of layers. These layers consist in a repetition of 5 times two different superimposed layers (from bottom to top):  layer A: 2.5 nm thick with a real refractive index n = 1-5e-6. layer B: 5 nm thick with a real refractive index n = 1-1e-5.</description>
+    </item>
+    
+  </channel>
+</rss>

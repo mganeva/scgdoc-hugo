@@ -15,7 +15,27 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/</loc>
   </url>
   
   <url>
@@ -27,11 +47,35 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/</loc>
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/</loc>
   </url>
   
   <url>
@@ -40,6 +84,22 @@
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/</loc>
   </url>
   
   <url>
@@ -55,7 +115,23 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/</loc>
   </url>
   
   <url>
@@ -63,23 +139,31 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/using-latex/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</loc>
   </url>
   
   <url>

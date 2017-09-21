@@ -146,7 +146,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-md-8">
       
 
 	
@@ -187,10 +187,68 @@
 
 
 
+<h4 id="highlight-the-file-located-in-static-directory-line-numbers">Highlight the file located in static directory (line numbers)</h4>
+
+<p><table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></div></td><td class="code"><div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #0000ff">import</span> sys
+<span style="color: #0000ff">import</span> numpy
+
+
+<span style="background-color: #ffffcc"><span style="color: #0000ff">class</span> <span style="color: #2b91af">Base</span>:
+</span>    <span style="color: #a31515">&quot;&quot;&quot;</span>
+<span style="color: #a31515">    Base class</span>
+<span style="color: #a31515">    &quot;&quot;&quot;</span>
+    <span style="color: #0000ff">def</span> __init__(self):
+        self.x = None
+        self.y = numpy.sin(numpy.pi/2.0)
+
+    <span style="color: #0000ff">def</span> value(self):
+        <span style="color: #0000ff">return</span> self.y
+
+
+<span style="color: #0000ff">def</span> say_hello():
+    <span style="color: #a31515">&quot;&quot;&quot;</span>
+<span style="color: #a31515">    Prints &#39;Hello World&#39; message</span>
+<span style="color: #a31515">    &quot;&quot;&quot;</span>
+    b = Base()
+    <span style="color: #0000ff">print</span>(<span style="color: #a31515">&quot;Hello World&quot;</span>, b.value())
+
+
+<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
+    say_hello()
+</pre></div>
+</td></tr></table></p>
+
+<h4 id="highlight-the-file-from-local-directory-not-possible">Highlight the file from local directory (Not possible)</h4>
+
 
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-md-4">
       
 
 
@@ -381,6 +439,44 @@
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/">
         <span>List elements</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/basic-markdown/table-elements/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/">
+        <span>Table elements</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/basic-markdown/link-elements/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/">
+        <span>Link elements</span> 
         </a></li>
      
   
@@ -617,6 +713,199 @@
 
   
     
+
+    <li data-nav-id="/documentation/tutorials/children/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/">
+        <span>Children shortcode</span>
+      </a>
+
+      
+        <ul>
+          
+          
+            
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/children/child1/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/">
+        <span>Child1</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/children/child2/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/">
+        <span>Child2</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+
+    <li data-nav-id="/documentation/tutorials/children/child3/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/">
+        <span>Child3</span>
+      </a>
+
+      
+        <ul>
+          
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/children/child3/grandchild1/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/">
+        <span>Grandchild1</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/children/child3/grandchild2/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/">
+        <span>Grandchild2</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/children/child4/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/">
+        <span>Child4</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
       <li data-nav-id="/documentation/tutorials/using-latex/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/using-latex/">
@@ -636,9 +925,9 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/tutorial6/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/alert-panels/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/">
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/">
         <span>Allerts, notices and panels</span> 
         </a></li>
      
@@ -655,9 +944,9 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/tutorial7/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/buttons/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/">
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/">
         <span>Action buttons</span> 
         </a></li>
      
@@ -674,9 +963,9 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/tutorial8/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/labels-and-icons/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/">
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/">
         <span>Labels and icons</span> 
         </a></li>
      
@@ -699,6 +988,354 @@
         <span>Tabs embedded, accordions</span> 
         </a></li>
      
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/video/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/">
+        <span>Youtube and staff</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+
+    <li data-nav-id="/documentation/bornagain/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/">
+        <span>BornAgain</span>
+      </a>
+
+      
+        <ul>
+          
+          
+            
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/welcome/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/">
+        <span>Welcome to BornAgain</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/architectural-overview/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/">
+        <span>Architectural overview</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+
+    <li data-nav-id="/documentation/bornagain/python-examples/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/">
+        <span>Examples of BornAgain usage</span>
+      </a>
+
+      
+        <ul>
+          
+          
+            
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+
+    <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/">
+        <span>Embedded particles</span>
+      </a>
+
+      
+        <ul>
+          
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersinba/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/">
+        <span>Cylinders in Born Approximation</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/">
+        <span>Cylinders in Distorted Wave Born Approximation</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/">
+        <span>Cylinders with size distribution</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+
+    <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/">
+        <span>Layered structures</span>
+      </a>
+
+      
+        <ul>
+          
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/buriedparticles/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/">
+        <span>Buried particles</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/correlatedroughness/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/">
+        <span>Correlated roughness</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
   
 
 
@@ -781,7 +1418,7 @@
     <script src="https://scgmlz.github.io/scgdoc-hugo//js/bootstrap.min.js"></script>
 
     
-    <script src="https://scgmlz.github.io/scgdoc-hugo//js/clean-blog.js"></script>
+    <script src="https://scgmlz.github.io/scgdoc-hugo//js/theme.js"></script>
 
     
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

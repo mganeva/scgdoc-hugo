@@ -33,6 +33,43 @@ import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &a
     </item>
     
     <item>
+      <title>Buried particles</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</guid>
+      <description>Buried particles Scattering from a sample containing spherical embedded particles.
+ From top to bottom, the sample is composed of the air layer, an intermediate material layer, and the substrate. The particles are 10.2-nanometer-radius spheres. They are placed vertically in the middle of the intermediate layer. The depth to place the spheres is measured between the top of the layer and the bottom of the particles. There is no interference between the scattered waves.</description>
+    </item>
+    
+    <item>
+      <title>Child1</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Grandchild1</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Grandchild2</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
       <title>Insert via markdown</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/basic-insert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +87,55 @@ From local directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.</d
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
       <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to BornAgain</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</guid>
+      <description>Welcome to BornAgain BornAgain is a software package to simulate and fit small-angle scattering at grazing incidence. It supports analysis of both X-ray (GISAXS) and neutron (GISANS) data. Its name, BornAgain, indicates the central role of the distorted wave Born approximation in the physical description of the scattering process. The software provides a generic framework for modeling multilayer samples with smooth or rough interfaces and with various types of embedded nanoparticles.</description>
+    </item>
+    
+    <item>
+      <title>Cylinders in Born Approximation</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/</guid>
+      <description>Cylinders in Born Approximation Scattering from a monodisperse distribution of cylinders using the Born approximation.
+ The cylinders are all identical with radii and heights equal to 5 nanometers. The wavelength is equal to 1 Å. The incident angles are equal to αi = 0.2° and Φi=0°. There is no substrate (particles are embedded in the air layer), hence no refraction, hence no distorted waves, hence DWBA boils down to regular Born approximation.</description>
+    </item>
+    
+    <item>
+      <title>Child2</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Correlated roughness</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/</guid>
+      <description>Correlated roughness Scattering from a multilayered sample with correlated roughness.
+ The sample is composed of a substrate on which is sitting a stack of layers. These layers consist in a repetition of 5 times two different superimposed layers (from bottom to top):  layer A: 2.5 nm thick with a real refractive index n = 1-5e-6. layer B: 5 nm thick with a real refractive index n = 1-1e-5.</description>
+    </item>
+    
+    <item>
+      <title>Cylinders in Distorted Wave Born Approximation</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/</guid>
+      <description>Scattering from a monodisperse distribution of cylindrical particles using the Distorted Wave Born Approxiamtion (DWBA).
+This example is similar to the simulation in Born Approximation, CylindersInBA, but now the particles sit on top of a substrate. Therefore incoming and scattered waves are distorted by reflections from the substrate surface, as described by the DWBA.
+ The distribution of cylinders is monodisperse with heights and radii of 5 nm. The wavelength is equal to 1 Å.</description>
     </item>
     
     <item>
@@ -78,8 +164,28 @@ Unordered list  item 1 item 2  Another item Another item Another item  item 3 it
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</guid>
-      <description> This tutorial explains how to embed Python code from a script, located in certain directory.
-Highlight the file located in static directory import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;quot;&amp;quot;&amp;quot; Prints &amp;#39;Hello World&amp;#39; message &amp;quot;&amp;quot;&amp;quot; b = Base() print(&amp;quot;Hello World&amp;quot;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  </description>
+      <description>This tutorial explains how to embed Python code from a script, located in certain directory.
+Highlight the file located in static directory import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;quot;&amp;quot;&amp;quot; Prints &amp;#39;Hello World&amp;#39; message &amp;quot;&amp;quot;&amp;quot; b = Base() print(&amp;quot;Hello World&amp;quot;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  Highlight the file located in static directory (line numbers) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26import sys import numpy class Base:  &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
+    </item>
+    
+    <item>
+      <title>Architectural overview</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</guid>
+      <description>Architectural overview BornAgain is an open source and a multi-platform framework available in Windows, MacOS and Linux. It is developed in C++ and provided with Python bindings. The overall size of the project is about 180k lines of code.
+The Big Picture BornAgain is designed to be immediately useful for users with little experience in GISAS simulations while being flexible enough to fulfill requests of advanced users. The figure below represents the set of requirements and practices that have informed our architectural choices.</description>
+    </item>
+    
+    <item>
+      <title>Cylinders with size distribution</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/</guid>
+      <description>Cylinders with size distribution Scattering from a polydisperse distribution of cylinders in Born Approximation.
+ The average radii and heights of the cylinders are equal to 5 nm. The radii of the cylinders vary according to a normal distribution with a standard deviation σ equal to 0.2 times the average radius. The wavelength is equal to 1 Å. The incident angles are equal to αi = 0.2°and Φi = 0°.</description>
     </item>
     
     <item>
@@ -98,7 +204,28 @@ Highlight the file located in static directory import sys import numpy class Bas
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/</guid>
       <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</description>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Table elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</guid>
+      <description>Page demonstrates basic table elements and their appearance in difference context.
+Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+   Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Child4</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
     </item>
     
     <item>
@@ -110,6 +237,17 @@ Highlight the file located in static directory import sys import numpy class Bas
       <description>Gallery of specific files Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
     Anisopyramid
       Box</description>
+    </item>
+    
+    <item>
+      <title>Link elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</guid>
+      <description>External and internal links in various context.
+External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+External link in list context  Lorem ipsum dolor sit amet. Praesent libero  Links to the documentation sections  Text elements link. Text elements link without specifying full path.</description>
     </item>
     
     <item>
@@ -125,29 +263,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
     
     <item>
       <title>Allerts, notices and panels</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial6/</guid>
-      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page,</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</guid>
+      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
     </item>
     
     <item>
       <title>Action buttons</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial7/</guid>
-      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</guid>
+      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
       <title>Labels and icons</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</link>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial8/</guid>
-      <description>Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</guid>
+      <description> Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
     </item>
     
     <item>
@@ -157,6 +301,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</guid>
       <description>A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Youtube and staff</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</guid>
+      <description>Tutorial explains how to embed video.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>
     
     <item>
@@ -189,7 +344,7 @@ http://zackofalltrades.com/notes/2014/05/hugo-from-scratch/
 https://gohugo.io/variables/
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!
-Hugo resources Fantastic Gallery</description>
+Hugo resources  Fantastic Gallery  Markup languages  Mmark syntax Mmark on GitHub  Hugo themes to learn  Clean blog Docdoc theme Academic theme  Good looking documentation sites http://xvelopers.</description>
     </item>
     
     <item>
