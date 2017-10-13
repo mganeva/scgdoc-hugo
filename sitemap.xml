@@ -87,11 +87,19 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/</loc>
   </url>
   
   <url>
@@ -108,10 +116,6 @@
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/</loc>
   </url>
   
   <url>
@@ -135,11 +139,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/easy-gallery/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/easy-gallery/</loc>
   </url>
   
   <url>

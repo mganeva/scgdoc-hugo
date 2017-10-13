@@ -22,13 +22,36 @@ From local directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.</d
     </item>
     
     <item>
-      <title>Insert via figure shortcode</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/</link>
+      <title>Standard figure shortcode</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/</guid>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</guid>
+      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Custom figfancy shortcode</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/</guid>
       <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Custom figscg shortcode</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/</guid>
+      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     

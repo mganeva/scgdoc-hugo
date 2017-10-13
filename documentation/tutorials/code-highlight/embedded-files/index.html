@@ -157,91 +157,64 @@
 
 
 
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #0000ff">import</span> sys
-<span style="color: #0000ff">import</span> numpy
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00f">import</span> sys
+<span style="color:#00f">import</span> numpy
 
 
-<span style="color: #0000ff">class</span> <span style="color: #2b91af">Base</span>:
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Base class</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    <span style="color: #0000ff">def</span> __init__(self):
+<span style="color:#00f">class</span> <span style="color:#2b91af">Base</span>:
+    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#a31515">    Base class
+</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+    <span style="color:#00f">def</span> __init__(self):
         self.x = None
         self.y = numpy.sin(numpy.pi/2.0)
 
-    <span style="color: #0000ff">def</span> value(self):
-        <span style="color: #0000ff">return</span> self.y
+    <span style="color:#00f">def</span> value(self):
+        <span style="color:#00f">return</span> self.y
 
 
-<span style="color: #0000ff">def</span> say_hello():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Prints &#39;Hello World&#39; message</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
+<span style="color:#00f">def</span> say_hello():
+    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#a31515">    Prints &#39;Hello World&#39; message
+</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
     b = Base()
-    <span style="color: #0000ff">print</span>(<span style="color: #a31515">&quot;Hello World&quot;</span>, b.value())
+    <span style="color:#00f">print</span>(<span style="color:#a31515"></span><span style="color:#a31515">&#34;Hello World&#34;</span>, b.value())
 
 
-<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
-    say_hello()
-</pre></div>
-
+<span style="color:#00f">if</span> __name__ == <span style="color:#a31515"></span><span style="color:#a31515">&#39;__main__&#39;</span>:
+    say_hello()</code></pre>
+</div>
 
 
 <h4 id="highlight-the-file-located-in-static-directory-line-numbers">Highlight the file located in static directory (line numbers)</h4>
 
-<p><table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26</pre></div></td><td class="code"><div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #0000ff">import</span> sys
-<span style="color: #0000ff">import</span> numpy
-
-
-<span style="background-color: #ffffcc"><span style="color: #0000ff">class</span> <span style="color: #2b91af">Base</span>:
-</span>    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Base class</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    <span style="color: #0000ff">def</span> __init__(self):
-        self.x = None
-        self.y = numpy.sin(numpy.pi/2.0)
-
-    <span style="color: #0000ff">def</span> value(self):
-        <span style="color: #0000ff">return</span> self.y
-
-
-<span style="color: #0000ff">def</span> say_hello():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Prints &#39;Hello World&#39; message</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    b = Base()
-    <span style="color: #0000ff">print</span>(<span style="color: #a31515">&quot;Hello World&quot;</span>, b.value())
-
-
-<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
-    say_hello()
-</pre></div>
-</td></tr></table></p>
+<p><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 1</span><span style="color:#00f">import</span> sys
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 2</span><span style="color:#00f">import</span> numpy
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 3</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 4</span>
+<span style="background-color:#e5e5e5;display:block;width:100%"><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 5</span><span style="color:#00f">class</span> <span style="color:#2b91af">Base</span>:
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 6</span>    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 7</span><span style="color:#a31515">    Base class
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 8</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 9</span>    <span style="color:#00f">def</span> __init__(self):
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">10</span>        self.x = None
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">11</span>        self.y = numpy.sin(numpy.pi/2.0)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">12</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">13</span>    <span style="color:#00f">def</span> value(self):
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">14</span>        <span style="color:#00f">return</span> self.y
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">15</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">16</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">17</span><span style="color:#00f">def</span> say_hello():
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">18</span>    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">19</span><span style="color:#a31515">    Prints &#39;Hello World&#39; message
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">20</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">21</span>    b = Base()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">22</span>    <span style="color:#00f">print</span>(<span style="color:#a31515"></span><span style="color:#a31515">&#34;Hello World&#34;</span>, b.value())
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">23</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">24</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">25</span><span style="color:#00f">if</span> __name__ == <span style="color:#a31515"></span><span style="color:#a31515">&#39;__main__&#39;</span>:
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">26</span>    say_hello()</code></pre>
+</div></p>
 
 <h4 id="highlight-the-file-from-local-directory-not-possible">Highlight the file from local directory (Not possible)</h4>
 
@@ -664,10 +637,48 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/insert-image/figure-shortcodes/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/insert-image/figure-shortcode/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/">
-        <span>Insert via figure shortcode</span> 
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/">
+        <span>Standard figure shortcode</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/insert-image/figfancy-shortcode/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/">
+        <span>Custom figfancy shortcode</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/insert-image/figscg-shortcode/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/">
+        <span>Custom figscg shortcode</span> 
         </a></li>
      
   

@@ -7,10 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Children shortcode -- My New Hugo Site</title>
+<title>Custom figfancy shortcode -- My New Hugo Site</title>
 
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" /> 
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/bootstrap.min.css" rel="stylesheet">
 
@@ -123,7 +121,14 @@
   
 
 
-  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/'>Tutorials</a> > Children shortcode
+  
+  
+
+
+  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/'>Tutorials</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/'>Insert images</a> > Custom figfancy shortcode
+
+
+ 
 
 
  
@@ -143,389 +148,118 @@
   <div class="row">
     <div class="col-md-8">
       
-  
-
-<h4 id="list-of-children">List of children</h4>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="children children-li">
-	
-    
-	    
-    
-    
 
 	
-		
-	
-		
-  
 
+<h4 id="default-insert">Default insert</h4>
 
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/" >Child1</a>
-</li>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
 
+<div class="box "  >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" />
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
+<h4 id="with-caption">With caption</h4>
 
-			
-		
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-		
-			
 
-		
-	
-		
-  
 
+<div class="box "  >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" alt="Some caption"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Some caption</p>
+      </figcaption>
+  </figure>
+</div>
 
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/" >Child2</a>
-</li>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
 
+<div class="box fancy-figure caption-position-bottom "  >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" alt="Some caption"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_640.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Some caption</p>
+      </figcaption>
+  </figure>
+</div>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
+<h4 id="too-big-image-check-that-it-is-not-going-outside-of-container">Too big image (check that it is not going outside of container)</h4>
 
-			
-		
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-		
-			
 
-		
-	
-		
-  
 
+<div class="box "  >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" />
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
 
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/" >Child3</a>
-</li>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
+<h4 id="reduced-width">Reduced width</h4>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
 
+<div class="box " style="max-width:400px" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" alt="A short caption"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>A short caption</p>
+      </figcaption>
+  </figure>
+</div>
 
-			
-		
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
-		
-			
+<h4 id="reduced-width-centered">Reduced width, centered</h4>
 
-		
-	
-		
-  
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/" >Child4</a>
-</li>
 
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-
-	
-</ul>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<h4 id="list-of-children-with-description">List of children with description</h4>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<ul class="children children-li">
-    
-    
-        
-    
-    
-
-    
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/" >Child1</a>
-</li>
-
-
-
-
-
-
-            
-                
-<p>description 1</p>
-                
-            
-        
-
-        
-            
-
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/" >Child2</a>
-</li>
-
-
-
-
-
-
-            
-                
-<p>description 2</p>
-                
-            
-        
-
-        
-            
-
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/" >Child3</a>
-</li>
-
-
-
-
-
-
-            
-                
-<p>description 3</p>
-                
-            
-        
-
-        
-            
-
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/" >Child4</a>
-</li>
-
-
-
-
-
-
-            
-                
-<p>description 4</p>
-                
-            
-        
-
-        
-            
-
-        
-    
-
-    
-</ul>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<h4 id="list-of-children-with-depth">List of children with depth</h4>
-
-<ul class="children children-li">
-    
-    
-        
-    
-    
-
-    
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/" >Child1</a>
-</li>
-
-
-
-
-
-
-            
-        
-
-        
-            
-
-<ul>
-
-    
-    
-    
-
-    
-        
-    
-
-    
-
-</ul>
-
-<p><li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/" >Child2</a>
-</li></p>
-
-<ul>
-
-    
-    
-    
-
-    
-        
-    
-
-    
-
-</ul>
-
-<p><li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/" >Child3</a>
-</li></p>
-
-<ul>
-
-    
-    
-    
-
-    
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/" >Grandchild1</a>
-</li>
-
-
-
-
-
-
-            
-        
-
-        
-            
-
-        
-    
-        
-  
-
-
-<li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/" >Grandchild2</a>
-</li>
-
-
-
-
-
-
-            
-        
-
-        
-            
-
-        
-    
-
-    
-
-</ul>
-
-<p><li>
-<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/" >Child4</a>
-</li></p>
-
-<ul>
-
-    
-    
-    
-
-    
-        
-    
-
-    
-
-</ul>
-
-<p></ul></p>
-
-
-
+<div class="box fancy-figure caption-position-bottom caption-effect-none alignment-center" style="max-width:400px" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" alt="A short caption"/>
+    </div>
+    <a href="https://scgmlz.github.io/scgdoc-hugo/img/cone6_1000.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>A short caption</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
 
 
     </div>
@@ -892,7 +626,7 @@
     
 
     <li data-nav-id="/documentation/tutorials/insert-image/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -907,7 +641,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/">
         <span>Insert images</span>
@@ -965,7 +699,7 @@
 
   
     
-      <li data-nav-id="/documentation/tutorials/insert-image/figfancy-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/insert-image/figfancy-shortcode/" class="dd-item active">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/">
         <span>Custom figfancy shortcode</span> 
@@ -1035,8 +769,8 @@
     
 
     <li data-nav-id="/documentation/tutorials/children/" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
 
@@ -1050,7 +784,7 @@
       
       
 
-      <i class="fa liOpened li-item-icon"></i>
+      <i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/">
         <span>Children shortcode</span>

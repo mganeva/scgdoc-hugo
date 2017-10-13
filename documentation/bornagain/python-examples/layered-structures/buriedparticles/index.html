@@ -173,149 +173,94 @@
 
 
 
-<div class="box "  >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="../BuriedParticles.png" />
-    </div>
-    <a href="../BuriedParticles.png" itemprop="contentUrl"></a>
-  </figure>
+<div class="galleryscg">
+	
+<figure >
+ 	  <a href="../BuriedParticles.png">
+ 	  	<img src="../BuriedParticles.png" width="320px">
+ 	  </a>
+      <figcaption>
+      	<p>A short caption</p>
+      </figcaption>
+	</figure>
+
+<figure >
+ 	  <a href="../BuriedParticles_setup.png">
+ 	  	<img src="../BuriedParticles_setup.png" width="320px">
+ 	  </a>
+      <figcaption>
+      	<p>A short caption</p>
+      </figcaption>
+	</figure>
+
+
 </div>
 
 
 
-<div class="box "  >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="../BuriedParticles_setup.png" />
-    </div>
-    <a href="../BuriedParticles_setup.png" itemprop="contentUrl"></a>
-  </figure>
+
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 1</span><span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 2</span><span style="color:#a31515">Spherical particles embedded in the middle of the layer on top of substrate.
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 3</span><span style="color:#a31515">&#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 4</span><span style="color:#00f">import</span> bornagain <span style="color:#00f">as</span> ba
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 5</span><span style="color:#00f">from</span> bornagain <span style="color:#00f">import</span> deg, angstrom, nm
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 6</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 7</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 8</span><span style="color:#00f">def</span> get_sample():
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;"> 9</span>    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">10</span><span style="color:#a31515">    Returns a sample with spherical particles in an layer between air and substrate.
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">11</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">12</span>    <span style="color:#008000"># defining materials</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">13</span>    m_ambience = ba.HomogeneousMaterial(<span style="color:#a31515"></span><span style="color:#a31515">&#34;Air&#34;</span>, 0.0, 0.0)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">14</span>    m_interm_layer = ba.HomogeneousMaterial(<span style="color:#a31515"></span><span style="color:#a31515">&#34;IntermLayer&#34;</span>, 3.45e-6, 5.24e-9)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">15</span>    m_substrate = ba.HomogeneousMaterial(<span style="color:#a31515"></span><span style="color:#a31515">&#34;Substrate&#34;</span>, 7.43e-6, 1.72e-7)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">16</span>    m_particle = ba.HomogeneousMaterial(<span style="color:#a31515"></span><span style="color:#a31515">&#34;Particle&#34;</span>, 0.0, 0.0)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">17</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">18</span>    <span style="color:#008000"># collection of particles</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">19</span>    ff_sphere = ba.FormFactorFullSphere(10.2*nm)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">20</span>    sphere = ba.Particle(m_particle, ff_sphere)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">21</span>    sphere.setPosition(0.0, 0.0, -25.2)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">22</span>    particle_layout = ba.ParticleLayout()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">23</span>    particle_layout.addParticle(sphere, 1.0)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">24</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">25</span>    <span style="color:#008000"># assembling the sample</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">26</span>    air_layer = ba.Layer(m_ambience)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">27</span>    intermediate_layer = ba.Layer(m_interm_layer, 30.*nm)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">28</span>    intermediate_layer.addLayout(particle_layout)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">29</span>    substrate_layer = ba.Layer(m_substrate, 0)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">30</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">31</span>    multi_layer = ba.MultiLayer()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">32</span>    multi_layer.addLayer(air_layer)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">33</span>    multi_layer.addLayer(intermediate_layer)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">34</span>    multi_layer.addLayer(substrate_layer)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">35</span>    <span style="color:#00f">return</span> multi_layer
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">36</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">37</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">38</span><span style="color:#00f">def</span> get_simulation():
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">39</span>    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">40</span><span style="color:#a31515">    Returns a GISAXS simulation.
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">41</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">42</span>    simulation = ba.GISASSimulation()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">43</span>    simulation.setSample(get_sample())
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">44</span>    simulation.setDetectorParameters(200, -1*deg, +1*deg, 200, 0*deg, +2*deg)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">45</span>    simulation.setBeamParameters(1.5*angstrom, 0.15*deg, 0.0*deg)
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">46</span>    <span style="color:#00f">return</span> simulation
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">47</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">48</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">49</span><span style="color:#00f">def</span> run_simulation():
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">50</span>    <span style="color:#a31515"></span><span style="color:#a31515">&#34;&#34;&#34;
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">51</span><span style="color:#a31515">    Runs simulation and returns intensity map.
+</span><span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">52</span><span style="color:#a31515">    &#34;&#34;&#34;</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">53</span>    simulation = get_simulation()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">54</span>    simulation.setSample(get_sample())
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">55</span>    simulation.runSimulation()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">56</span>    <span style="color:#00f">return</span> simulation.getIntensityData()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">57</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">58</span>
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">59</span><span style="color:#00f">if</span> __name__ == <span style="color:#a31515"></span><span style="color:#a31515">&#39;__main__&#39;</span>:
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">60</span>    result = run_simulation()
+<span style="color:#7f7f7f;margin-right:0.4em;padding:00.4em00.4em;">61</span>    ba.plot_intensity_data(result)</code></pre>
 </div>
-
-<table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61</pre></div></td><td class="code"><div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span><span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">Spherical particles embedded in the middle of the layer on top of substrate.</span>
-<span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #0000ff">import</span> bornagain <span style="color: #0000ff">as</span> ba
-<span style="color: #0000ff">from</span> bornagain <span style="color: #0000ff">import</span> deg, angstrom, nm
-
-
-<span style="color: #0000ff">def</span> get_sample():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Returns a sample with spherical particles in an layer between air and substrate.</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    <span style="color: #008000"># defining materials</span>
-    m_ambience = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;Air&quot;</span>, 0.0, 0.0)
-    m_interm_layer = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;IntermLayer&quot;</span>, 3.45e-6, 5.24e-9)
-    m_substrate = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;Substrate&quot;</span>, 7.43e-6, 1.72e-7)
-    m_particle = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;Particle&quot;</span>, 0.0, 0.0)
-
-    <span style="color: #008000"># collection of particles</span>
-    ff_sphere = ba.FormFactorFullSphere(10.2*nm)
-    sphere = ba.Particle(m_particle, ff_sphere)
-    sphere.setPosition(0.0, 0.0, -25.2)
-    particle_layout = ba.ParticleLayout()
-    particle_layout.addParticle(sphere, 1.0)
-
-    <span style="color: #008000"># assembling the sample</span>
-    air_layer = ba.Layer(m_ambience)
-    intermediate_layer = ba.Layer(m_interm_layer, 30.*nm)
-    intermediate_layer.addLayout(particle_layout)
-    substrate_layer = ba.Layer(m_substrate, 0)
-
-    multi_layer = ba.MultiLayer()
-    multi_layer.addLayer(air_layer)
-    multi_layer.addLayer(intermediate_layer)
-    multi_layer.addLayer(substrate_layer)
-    <span style="color: #0000ff">return</span> multi_layer
-
-
-<span style="color: #0000ff">def</span> get_simulation():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Returns a GISAXS simulation.</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    simulation = ba.GISASSimulation()
-    simulation.setSample(get_sample())
-    simulation.setDetectorParameters(200, -1*deg, +1*deg, 200, 0*deg, +2*deg)
-    simulation.setBeamParameters(1.5*angstrom, 0.15*deg, 0.0*deg)
-    <span style="color: #0000ff">return</span> simulation
-
-
-<span style="color: #0000ff">def</span> run_simulation():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Runs simulation and returns intensity map.</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    simulation = get_simulation()
-    simulation.setSample(get_sample())
-    simulation.runSimulation()
-    <span style="color: #0000ff">return</span> simulation.getIntensityData()
-
-
-<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
-    result = run_simulation()
-    ba.plot_intensity_data(result)
-</pre></div>
-</td></tr></table>
 
 <p><span class="fa fa-save" aria-hidden="true"></span>
 <a href="https://scgmlz.github.io/scgdoc-hugo//documentation/bornagain/python-examples/layered-structures/BuriedParticles.py"/>
@@ -744,10 +689,48 @@ BuriedParticles.py
 
   
     
-      <li data-nav-id="/documentation/tutorials/insert-image/figure-shortcodes/" class="dd-item ">
+      <li data-nav-id="/documentation/tutorials/insert-image/figure-shortcode/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcodes/">
-        <span>Insert via figure shortcode</span> 
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/">
+        <span>Standard figure shortcode</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/insert-image/figfancy-shortcode/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/">
+        <span>Custom figfancy shortcode</span> 
+        </a></li>
+     
+  
+
+
+
+            
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/tutorials/insert-image/figscg-shortcode/" class="dd-item ">
+        <i class="fa liSingle li-item-icon"></i>
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/">
+        <span>Custom figscg shortcode</span> 
         </a></li>
      
   

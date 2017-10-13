@@ -455,6 +455,62 @@ img[src$='#floatright']
     margin: 0.7rem;
 }
 
+img[alt="my_style1"]
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;  
+}
+
+/* ------------------------------------------------------------- *
+ * Tuning standard figure shortcode
+/* ------------------------------------------------------------- */
+
+figure.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure.center, figure.floatleft figcaption{
+text-align: center;
+}
+
+figure.floatleft {
+  display: block;
+  padding-top: 10px;
+  padding-right: 15px;
+  float: left;
+}
+
+/* ------------------------------------------------------------- *
+ * Tuning custom figscg and galleryscg shortcodes
+/* ------------------------------------------------------------- */
+.galleryscg {
+  width: 100%;
+  text-align: center;
+}
+
+.galleryscg figure {
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+}
+
+
+/* ------------------------------------------------------------- *
+ * Tuning fancyfig shortcode
+/* ------------------------------------------------------------- */
+
+.box.alignment-center {
+    display: block;
+    margin: auto;
+}
+
+.box.alignment-center img{
+    display: block;
+    margin: auto;
+}
+
 /* ------------------------------------------------------------- *
  * Alert panels
 /* ------------------------------------------------------------- */
@@ -466,20 +522,6 @@ img[src$='#floatright']
 .alert > p, .alert > ul {
     margin-bottom: 0;
     margin-top: 0;
-}
-
-/* ------------------------------------------------------------- *
- * Figure classes
-/* ------------------------------------------------------------- */
-
-.box.alignment-center {
-    display: block;
-    margin: auto;
-}
-
-.box.alignment-center img{
-    display: block;
-    margin: auto;
 }
 
 /* ------------------------------------------------------------- *
@@ -535,6 +577,9 @@ td {
 /* ------------------------------------------------------------- *
  * Highlight shortcode
 /* ------------------------------------------------------------- */
+.highlight {
+  margin-top: 20px;
+}
 
 .table-responsive { 
 	color: #333; 
