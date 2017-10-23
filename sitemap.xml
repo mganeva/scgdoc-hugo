@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/text-elements/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/</loc>
   </url>
   
@@ -43,7 +39,15 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/windows/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</loc>
   </url>
   
   <url>
@@ -71,6 +75,10 @@
   </url>
   
   <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</loc>
+  </url>
+  
+  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</loc>
   </url>
   
@@ -79,15 +87,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/</loc>
   </url>
   
   <url>
@@ -107,10 +115,6 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/client-side/</loc>
   </url>
   
@@ -119,7 +123,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</loc>
   </url>
   
   <url>
@@ -143,11 +155,23 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/easy-gallery/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</loc>
   </url>
   
   <url>

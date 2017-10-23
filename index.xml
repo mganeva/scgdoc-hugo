@@ -19,17 +19,7 @@
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/basic-highlight/</guid>
       <description>This tutorial explains, how to insert Python snippets in the text with and without line numbering.
 Python code highlight basics Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
-import sys import numpy class Base: &amp;#34;&amp;#34;&amp;#34; Base class &amp;#34;&amp;#34;&amp;#34; def __init__(self): self.</description>
-    </item>
-    
-    <item>
-      <title>Basic text elements</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/text-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/text-elements/</guid>
-      <description>Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
- Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
     </item>
     
     <item>
@@ -81,12 +71,32 @@ From local directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.</d
     </item>
     
     <item>
+      <title>Installation on Windows</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/windows/</guid>
+      <description>Installation on Windows We provide 64-bit installer package which can be installed into 64-bit Windows 7, 8, 10 systems.
+BornAgain graphical user interface doesn&amp;rsquo;t require any additional libraries to be installed on the system. You can start using BornAgain application right after the installation. However, to use the framework via scripting you have to have Python framework installed. To install and run BornAgain for the first time proceed with the following steps:</description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
       <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
+    </item>
+    
+    <item>
+      <title>Paragraphs and headers</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</guid>
+      <description>Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
+ Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
@@ -139,6 +149,16 @@ This example is similar to the simulation in Born Approximation, CylindersInBA, 
     </item>
     
     <item>
+      <title>Emphasis</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</guid>
+      <description>Emphasis and Strikethrough Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+ This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Strikethrough  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</description>
+    </item>
+    
+    <item>
       <title>Get started</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -149,23 +169,13 @@ This example is similar to the simulation in Born Approximation, CylindersInBA, 
     </item>
     
     <item>
-      <title>List elements</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</guid>
-      <description>Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
-Unordered list  item 1 item 2  Another item Another item Another item  item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b   Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
       <title>Python code embedded</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</guid>
       <description>This tutorial explains how to embed Python code from a script, located in certain directory.
-Highlight the file located in static directory import sys import numpy class Base: &amp;#34;&amp;#34;&amp;#34; Base class &amp;#34;&amp;#34;&amp;#34; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;#34;&amp;#34;&amp;#34; Prints &amp;#39;Hello World&amp;#39; message &amp;#34;&amp;#34;&amp;#34; b = Base() print(&amp;#34;Hello World&amp;#34;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  Highlight the file located in static directory (line numbers) 1import sys 2import numpy 3 4 5class Base: 6 &amp;#34;&amp;#34;&amp;#34; 7Base class 8&amp;#34;&amp;#34;&amp;#34; 9 def __init__(self): 10 self.</description>
+Highlight the file located in static directory import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;quot;&amp;quot;&amp;quot; Prints &amp;#39;Hello World&amp;#39; message &amp;quot;&amp;quot;&amp;quot; b = Base() print(&amp;quot;Hello World&amp;quot;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  Highlight the file located in static directory (line numbers) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26import sys import numpy class Base:  &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
     </item>
     
     <item>
@@ -180,14 +190,12 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
     </item>
     
     <item>
-      <title>Standard figure shortcode</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</link>
+      <title>Installation on MacOS</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</guid>
-      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
     </item>
     
     <item>
@@ -231,14 +239,22 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
     </item>
     
     <item>
-      <title>Table elements</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</link>
+      <title>Installation on Unix (short version)</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</guid>
-      <description>Page demonstrates basic table elements and their appearance in difference context.
-Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-   Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
+    </item>
+    
+    <item>
+      <title>List elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</guid>
+      <description>Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
+Unordered list  item 1 item 2  Another item Another item Another item  item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b   Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
@@ -263,14 +279,23 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
     </item>
     
     <item>
-      <title>Link elements</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</link>
+      <title>Table elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</guid>
-      <description>External and internal links in various context.
-External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-External link in list context  Lorem ipsum dolor sit amet. Praesent libero  Links to the documentation sections  Text elements link. Text elements link without specifying full path.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</guid>
+      <description>Page demonstrates basic table elements and their appearance in difference context.
+Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+   Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Installation on Unix (detailed version)</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
     </item>
     
     <item>
@@ -282,6 +307,17 @@ External link in list context  Lorem ipsum dolor sit amet. Praesent libero  Link
       <description>Gallery of specific files Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
     Anisopyramid
       Box</description>
+    </item>
+    
+    <item>
+      <title>Link elements</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</guid>
+      <description>External and internal links in various context.
+External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem ea nec, quas ferri veniam vix ei. Modo postea appetere ius et, viris dolore mei eu.</description>
     </item>
     
     <item>

@@ -11,13 +11,23 @@
     
     
     <item>
-      <title>Basic text elements</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/text-elements/</link>
+      <title>Paragraphs and headers</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/text-elements/</guid>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</guid>
       <description>Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
  Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Emphasis</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</guid>
+      <description>Emphasis and Strikethrough Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+ This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Strikethrough  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</description>
     </item>
     
     <item>
@@ -49,7 +59,7 @@ Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</guid>
       <description>External and internal links in various context.
 External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-External link in list context  Lorem ipsum dolor sit amet. Praesent libero  Links to the documentation sections  Text elements link. Text elements link without specifying full path.</description>
+Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem ea nec, quas ferri veniam vix ei. Modo postea appetere ius et, viris dolore mei eu.</description>
     </item>
     
   </channel>
