@@ -135,13 +135,36 @@
     <div class="col-md-8">
       
 
-	<p>Please explain how to start.</p>
+	
+
+<p>Please explain how to start.</p>
 
 <ul>
 <li>How to install hugo</li>
 <li>How to set-up gh-pages branch.</li>
 <li>How to modify content (i.e. add item to the documentation) and publish on gh-pages.</li>
 </ul>
+
+<h4 id="deployment-to-gh-pages-branch">Deployment to gh-pages branch</h4>
+
+<p>While being in master branch</p>
+
+<pre><code># remove previous publication
+rm -rf public
+mkdir public
+
+# clone gh-pages branch from the local repo into a repo located within &quot;public&quot;
+git clone .git --branch gh-pages public
+  
+# generate
+hugo
+  
+# commit the changes in the clone and push them back to the local gh-pages branch    
+cd public &amp;&amp; git add --all &amp;&amp; git commit -m &quot;Publishing to gh-pages&quot; &amp;&amp; git push origin gh-pages
+
+# publish
+git push upstream gh-pages
+</code></pre>
 
 
     </div>
@@ -294,7 +317,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liSingle li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/">
         <span>Basic markdown</span>
@@ -1089,6 +1112,8 @@
       
         <ul>
           
+          
+            
                     
           
           
@@ -1119,12 +1144,60 @@
 
   
     
-      <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item ">
+
+    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item 
+        
+        
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liClosed li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
+        <span>Installation on MacOS</span>
+      </a>
+
+      
+        <ul>
+          
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
-        <span>Installation on MacOS</span> 
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">
+        <span>Advanced tips</span> 
         </a></li>
      
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
   
 
 

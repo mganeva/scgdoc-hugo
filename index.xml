@@ -18,8 +18,8 @@
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/basic-highlight/</guid>
       <description>This tutorial explains, how to insert Python snippets in the text with and without line numbering.
-Python code highlight basics Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
-import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
+Simple code fence Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
     </item>
     
     <item>
@@ -164,8 +164,9 @@ This example is similar to the simulation in Born Approximation, CylindersInBA, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
-      <description>Please explain how to start.
- How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  </description>
+      <description> Please explain how to start.
+ How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  Deployment to gh-pages branch While being in master branch
+# remove previous publication rm -rf public mkdir public # clone gh-pages branch from the local repo into a repo located within &amp;quot;public&amp;quot; git clone .git --branch gh-pages public # generate hugo # commit the changes in the clone and push them back to the local gh-pages branch cd public &amp;amp;&amp;amp; git add --all &amp;amp;&amp;amp; git commit -m &amp;quot;Publishing to gh-pages&amp;quot; &amp;amp;&amp;amp; git push origin gh-pages # publish git push upstream gh-pages  </description>
     </item>
     
     <item>
@@ -190,12 +191,13 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
     </item>
     
     <item>
-      <title>Installation on MacOS</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/</link>
+      <title>Advanced tips</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/</guid>
+      <description>MacOS advanced tips Installing BornAgain python core libraries to the custom folder If your prefer to install the BornAgain core libraries not to the site-packages folder of your Python interpreter, but to some custom folder, you can do it in a following way.
+ Run the bornagain_install_python.py script from application bundle:  $ python /Applications/BornAgain.app/Contents/libexec/BornAgain-1.10/bornagain_python_install.py   Choose the option &amp;lsquo;[0]&amp;rsquo; - Generate bundle with BornAgain libraries, do not install it.</description>
     </item>
     
     <item>

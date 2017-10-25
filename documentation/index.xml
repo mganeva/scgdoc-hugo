@@ -25,8 +25,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
-      <description>Please explain how to start.
- How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  </description>
+      <description> Please explain how to start.
+ How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  Deployment to gh-pages branch While being in master branch
+# remove previous publication rm -rf public mkdir public # clone gh-pages branch from the local repo into a repo located within &amp;quot;public&amp;quot; git clone .git --branch gh-pages public # generate hugo # commit the changes in the clone and push them back to the local gh-pages branch cd public &amp;amp;&amp;amp; git add --all &amp;amp;&amp;amp; git commit -m &amp;quot;Publishing to gh-pages&amp;quot; &amp;amp;&amp;amp; git push origin gh-pages # publish git push upstream gh-pages  </description>
     </item>
     
   </channel>

@@ -7,10 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Documentation -- My New Hugo Site</title>
+<title>Advanced tips -- My New Hugo Site</title>
 
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" /> 
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/bootstrap.min.css" rel="stylesheet">
 
@@ -115,7 +113,35 @@
   
 
 
-  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > Documentation
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  <a href='https://scgmlz.github.io/scgdoc-hugo/'>Home</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/'>Documentation</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/'>BornAgain</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/'>Installation instructions</a> > <a href='https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/'>Installation on MacOS</a> > Advanced tips
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
 
 
  
@@ -129,9 +155,65 @@
   <div class="row">
     <div class="col-md-8">
       
-  <p>This is &ldquo;content/documentation/_index.md&rdquo; file.</p>
 
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &ldquo;Lorem ipsum dolor sit amet..&rdquo;, comes from a line in section 1.10.32.</p>
+	
+
+<h3 id="macos-advanced-tips">MacOS advanced tips</h3>
+
+<h4 id="installing-bornagain-python-core-libraries-to-the-custom-folder">Installing BornAgain python core libraries to the custom folder</h4>
+
+<p>If your prefer to install the BornAgain core libraries not to the site-packages folder of your Python interpreter, but to some custom folder, you can do it in a following way.</p>
+
+<ul>
+<li>Run the <code>bornagain_install_python.py</code> script from application bundle:</li>
+</ul>
+
+<pre><code>$ python /Applications/BornAgain.app/Contents/libexec/BornAgain-1.10/bornagain_python_install.py
+</code></pre>
+
+<ul>
+<li>Choose the option &lsquo;[0]&rsquo; - Generate bundle with BornAgain libraries, do not install it.
+You will get a message:</li>
+</ul>
+
+<pre><code>...
+BornAgain Python bundle is successfully created in temporary directory 
+'/var/folders/zt/0l4f_l_d46v5rkx668jqx0b4000lw7/T/bornagain_bundle'
+...
+</code></pre>
+
+<ul>
+<li>Go to the specified directory, pay attention that on your system name of this directory may differ from the name in this instruction.</li>
+</ul>
+
+<pre><code>$ cd /var/folders/zt/0l4f_l_d46v5rkx668jqx0b4000lw7/T/bornagain_bundle
+</code></pre>
+
+<ul>
+<li>Set the environment variable <code>PYTHONUSERBASE</code> to the directory where you want BornAgain libraries to be installed:</li>
+</ul>
+
+<pre><code>$ export PYTHONUSERBASE=/Users/me/my_python_extra
+</code></pre>
+
+<ul>
+<li>Run the <code>setup.py</code> to install the BornAgain core libraries to the specified folder</li>
+</ul>
+
+<pre><code>$ python setup.py install --user
+</code></pre>
+
+<ul>
+<li>Check that the installation went successfully by typing</li>
+</ul>
+
+<pre><code>$ python -c &quot;import bornagain&quot;
+</code></pre>
+
+<p>You need to pay attention that the <code>PYTHONUSERBASE</code> environment variable is allways defined when you run your python scripts. You may also insert  corresponding export directive  into your <code>.profile</code> configuration file:</p>
+
+<pre><code>export PYTHONUSERBASE=/Users/me/my_python_extra
+</code></pre>
 
 
     </div>
@@ -154,7 +236,7 @@
 
     <li data-nav-id="/documentation/" class="dd-item 
         parent
-        active
+        
         
         ">
 
@@ -978,7 +1060,7 @@
     
 
     <li data-nav-id="/documentation/bornagain/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -993,7 +1075,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/">
         <span>BornAgain</span>
@@ -1055,7 +1137,7 @@
     
 
     <li data-nav-id="/documentation/bornagain/installation/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1070,7 +1152,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/">
         <span>Installation instructions</span>
@@ -1113,7 +1195,7 @@
     
 
     <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -1128,7 +1210,7 @@
       
       
 
-      <i class="fa liClosed li-item-icon"></i>
+      <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
         <span>Installation on MacOS</span>
@@ -1148,7 +1230,7 @@
 
   
     
-      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item active">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">
         <span>Advanced tips</span> 

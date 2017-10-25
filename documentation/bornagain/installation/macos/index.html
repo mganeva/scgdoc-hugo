@@ -9,6 +9,8 @@
 <meta name="author" content="">
 <title>Installation on MacOS -- My New Hugo Site</title>
 
+<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+<link href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" /> 
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/bootstrap.min.css" rel="stylesheet">
 
@@ -148,8 +150,129 @@
   <div class="row">
     <div class="col-md-8">
       
+  
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+<h2 id="installation-on-macos">Installation on MacOS</h2>
+
+<p>For Mac OS X, we provide a 64-bit binary .dmg installer for Yosemite (10.10) or above and also support build and installation from source.
+Alternatively, you can build BornAgain from source by yourself following the
+<a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/">Installation on Unix</a> section.</p>
+
+<p>The rest of this section explains how to install BornAgain using <code>.dmg</code> installer.</p>
+
+<p>BornAgain graphical user interface doesn&rsquo;t require any additional libraries to be installed on the system. You can start using BornAgain application right after the installation. However, to use the framework via scripting you have to have Python framework installed and configured as explained in the following sections.</p>
+
+<p>To install and run BornAgain for the first time proceed with the following steps:</p>
+
+<ul>
+<li><a href="#use-bornagain-installer">Use BornAgain installer</a></li>
+<li><a href="#install-python">Install Python</a></li>
+<li><a href="#configure-python-for-bornagain">Configure Python for BornAgain</a></li>
+<li><a href="#test-the-installation">Test the installation</a></li>
+</ul>
+
+<h4 id="use-bornagain-installer">Use BornAgain installer</h4>
+
+<p>BornAgain installer can be downloaded from <a href="http://apps.jcns.fz-juelich.de/src/BornAgain">here</a>.
+After downloading the installer, double click <code>.dmg</code> file to mount it, accept the license agreement and then drag the BornAgain icon onto the Applications shortcut icon.</p>
+
+<figure class="center">
+ 	  <a href="installation_macdmg2.png">
+ 	  	<img src="installation_macdmg2.png" >
+ 	  </a>
+      <figcaption>
+      	<p></p>
+      </figcaption>
+	</figure>
+
+
+<p>Depending on your system&rsquo;s security settings you might not be able to open BornAgain directly from the launchpad. In this case you will have to proceed first with the instruction <a href="http://support.apple.com/kb/PH14369">Open an app from an unidentified developer</a>.</p>
+
+<p>At this point you can can already start working with BornAgain GUI. The rest of tutorial explains how to setup BornAgain for Python.</p>
+
+<h4 id="install-python">Install Python</h4>
+
+<p>To be able to use BornAgain framework via Python scripting <code>python-2.7, matplotlib, numpy</code> must be installed on the system.
+This set of packages is known as <a href="https://www.scipy.org">SciPy stack</a> and for most users the easiest way to install it, is to download one of free Python distributions, which includes all the key packages. The list of possible options is given on <a href="http://www.scipy.org/install.html">SciPy installation site</a>. We have tested <a href="https://www.anaconda.com/download">Anaconda Python Distribution</a> and suggest to use it if you do not have any other preferences.</p>
+
+<div class="alert 
+alert-success"
+ 
+role="alert"><p>Download and install Anaconda Mac OS X 64-bit — Python 2.7 — Graphical Installer from <a href="https://www.anaconda.com/download/">here</a> before proceeding to the installation of BornAgain.</p>
+</div>
+
+
+<div class="alert 
+alert-warning"
+ 
+role="alert"><p>While Python comes pre-installed on OS X, it is always quite outdated and we do not recommend to use it together with BornAgain libraries.</p>
+</div>
+
+
+<h5 id="alternatives">Alternatives</h5>
+
+<p>If your system is already equipped with <a href="http://brew.sh/">Homebrew</a>
+(recommended) or <a href="http://www.macports.org/">MacPorts</a>  package managers, you can certainly make use of it and  install Python with all required modules  by typing in the terminal</p>
+
+<p>For Homebrew users:</p>
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span></span>$ brew install python homebrew/science/matplotlib numpy
+</pre></div>
+
+<p>For MacPorts users:</p>
+
+<pre><code>$ sudo port install py27-matplotlib py27-numpy
+$ sudo port select --set python python27
+</code></pre>
+
+<h4 id="configure-python-for-bornagain">Configure Python for BornAgain</h4>
+
+<p>To make your Python installation aware of BornAgain API you have to install the BornAgain core libraries into <code>site-packages</code> of your Python.
+This should be done by running the <code>bornagain_install_python.py</code> script from application bundle. Assuming that BornAgain is installed in the
+<code>/Applications/BornAgain.app</code> folder, launch the Terminal application and run the following command</p>
+
+<pre><code>$ python /Applications/BornAgain.app/Contents/libexec/BornAgain-1.10/bornagain_python_install.py
+</code></pre>
+
+<p>The install script will install the BornAgain core libraries into site-packages of given Python interpreter. Check that the installation went successfully by typing</p>
+
+<pre><code>$ python -c &quot;import bornagain&quot;
+</code></pre>
+
+<h5 id="alternatives-1">Alternatives</h5>
+
+<p>If your prefer to install the BornAgain core libraries not to the site-packages folder of your Python interpreter, but to a custom folder, check
+the <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">following instruction</a>.</p>
+
+<h4 id="test-the-installation">Test the installation</h4>
+
+<p><figure class="floatleft">
+ 	  <a href="https://scgmlz.github.io/scgdoc-hugo/img/bornagainapp_32.png">
+ 	  	<img src="https://scgmlz.github.io/scgdoc-hugo/img/bornagainapp_32.png" >
+ 	  </a>
+      <figcaption>
+      	<p></p>
+      </figcaption>
+	</figure>
+ Use BornAgain icon from launchpad to start GUI.</p>
+
+<p><p style="clear: both;"></p>
+
+<p><figure class="floatleft">
+ 	  <a href="https://scgmlz.github.io/scgdoc-hugo/img/python_icon_32.png">
+ 	  	<img src="https://scgmlz.github.io/scgdoc-hugo/img/python_icon_32.png" >
+ 	  </a>
+      <figcaption>
+      	<p></p>
+      </figcaption>
+	</figure>
+
+Run an example from BornAgain installation directory by typing in the terminal.
+<p style="clear: both;"></p>
+
+<pre><code>$ python /Applications/BornAgain.app/Contents/share/BornAgain-1.10/Examples/python/simulation/ex01_BasicParticles/CylindersAndPrisms.py
+</code></pre>
+
+<p>You should immediately see a scattering image appearing on the screen.</p>
 
 
     </div>
@@ -1097,6 +1220,8 @@
       
         <ul>
           
+          
+            
                     
           
           
@@ -1127,12 +1252,60 @@
 
   
     
-      <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item active">
+
+    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item 
+        parent
+        active
+        
+        ">
+
+      
+      
+
+      
+        
+          
+        
+      
+      
+
+      <i class="fa liOpened li-item-icon"></i>
+
+      <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
+        <span>Installation on MacOS</span>
+      </a>
+
+      
+        <ul>
+          
+                    
+          
+          
+          
+            
+              
+
+
+
+  
+    
+      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item ">
         <i class="fa liSingle li-item-icon"></i>
-        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
-        <span>Installation on MacOS</span> 
+        <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">
+        <span>Advanced tips</span> 
         </a></li>
      
+  
+
+
+
+            
+          
+
+        </ul>
+      
+    </li>
+
   
 
 
