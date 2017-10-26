@@ -25,9 +25,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
-      <description> Please explain how to start.
- How to install hugo How to set-up gh-pages branch. How to modify content (i.e. add item to the documentation) and publish on gh-pages.  Deployment to gh-pages branch While being in master branch
-# remove previous publication rm -rf public mkdir public # clone gh-pages branch from the local repo into a repo located within &amp;quot;public&amp;quot; git clone .git --branch gh-pages public # generate hugo # commit the changes in the clone and push them back to the local gh-pages branch cd public &amp;amp;&amp;amp; git add --all &amp;amp;&amp;amp; git commit -m &amp;quot;Publishing to gh-pages&amp;quot; &amp;amp;&amp;amp; git push origin gh-pages # publish git push upstream gh-pages  </description>
+      <description>How to get started Here we explain how to start playing with Hugo and our Scientific Computing Group Thema.
+Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Clone the prototype of our site, run Hugo on it $ git clone https://github.com/scgmlz/scgdoc-hugo.git $ cd &amp;lt;source&amp;gt; $ hugo server -D  Open web-browser using address Hugo will tell you (most probably http://localhost:1313/scgdoc-hugo/)</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s next</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</guid>
+      <description>What&amp;rsquo;s next Resolve few remaining hugo-related technical issues  Occasional failures during side bar generation Math expressions in Latex inlined Less verbose shortcode for embedded Python scripts  Create final BornAgain thema for Hugo  Design BornAgain thema  Design layout, main landing page, color schema, polish css Pay attention to responsiveness Gallery, screenshot section  Provide additional Hugo magic  Automotize new release publishing (e.g. BornAgain version number in download links) Provide documentation versioning (is it still necessary?</description>
     </item>
     
   </channel>

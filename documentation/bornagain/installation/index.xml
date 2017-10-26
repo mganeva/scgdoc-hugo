@@ -26,16 +26,8 @@ BornAgain graphical user interface doesn&amp;rsquo;t require any additional libr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
-    </item>
-    
-    <item>
-      <title>Installation on Unix (detailed version)</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
+      <description>Installation on Unix (short version) This page shortly explains how to build and install BornAgain from source on Unix platforms.
+Install third party software  Compiler with C++-11 full support (i.e. gcc&amp;gt;= 4.9) cmake (&amp;gt;= 2.8.11) boost library (&amp;gt;= 1.48) eigen3 (&amp;gt;= 2.91.0) fftw3 library (&amp;gt;= 3.3.1) gsl (GNU scientific library, &amp;gt;= 1.15) libtiff library (&amp;gt;=4.0.2) python-2.7, python-devel, python-numpy-devel Qt5 (&amp;gt;=5.4) libyaml-cpp (&amp;gt;=0.5)  Get the source Download the BornAgain source tarball or use the following git repository</description>
     </item>
     
   </channel>

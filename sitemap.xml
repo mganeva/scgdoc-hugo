@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/basic-highlight/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/basic-highlight/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/</loc>
   </url>
   
   <url>
@@ -15,7 +15,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child1/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child1/</loc>
   </url>
   
   <url>
@@ -27,15 +27,23 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild1/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/get-source/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/grandchild2/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild1/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/basic-insert/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/basic-insert/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/third-party/</loc>
   </url>
   
   <url>
@@ -47,7 +55,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/headers/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/headers/</loc>
   </url>
   
   <url>
@@ -59,11 +67,11 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child2/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child2/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/</loc>
   </url>
   
   <url>
@@ -75,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/emphasis/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/emphasis/</loc>
   </url>
   
   <url>
@@ -87,11 +95,11 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/embedded-files/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/embedded-files/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figure-shortcode/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figure-shortcode/</loc>
   </url>
   
   <url>
@@ -107,11 +115,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child3/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/build-and-install/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figfancy-shortcode/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figfancy-shortcode/</loc>
   </url>
   
   <url>
@@ -119,11 +131,11 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/code-highlight/client-side/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/client-side/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/</loc>
   </url>
   
   <url>
@@ -135,27 +147,23 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/list-elements/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child4/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/children/child4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/figscg-shortcode/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figscg-shortcode/</loc>
   </url>
   
   <url>
@@ -163,53 +171,70 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/table-elements/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/insert-image/easy-gallery/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/basic-markdown/link-elements/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/first-simulation/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/using-latex/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/table-elements/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/alert-panels/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/buttons/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/easy-gallery/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/labels-and-icons/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/link-elements/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/tutorial10/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/using-latex/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/tutorials/video/</loc>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/alert-panels/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/post/post-02/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/buttons/</loc>
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/post/post-01/</loc>
-    <lastmod>2017-08-03T08:30:08+02:00</lastmod>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/labels-and-icons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/tutorial10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/video/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/post/release-10.10.0/</loc>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/post/release-10.9.0/</loc>
+    <lastmod>2017-07-04T08:30:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/post/release-10.8.1/</loc>
+    <lastmod>2017-05-12T08:30:10+02:00</lastmod>
   </url>
   
   <url>
@@ -229,29 +254,29 @@
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/categories/news/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/post/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/tags/release/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/tags/</loc>
-    <lastmod>2017-08-03T08:30:10+02:00</lastmod>
+    <lastmod>2017-10-09T08:30:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
