@@ -135,8 +135,76 @@
     <div class="col-md-8">
       
 
-	<p>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap).
-Give links to most important resources and tutorials.</p>
+	
+
+<h3 id="overview">Overview</h3>
+
+<p>Prototype of the documentation site made with <a href="https://gohugo.io/">Hugo</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+The documentation theme is called <code>scgdoc</code> and is supported by the Scientific Computing Group at MLZ.
+The theme was heavilly borrowed from the following projects</p>
+
+<ul>
+<li><a href="https://themes.gohugo.io/docdock/">docDoc - Documentation theme for Hugo</a></li>
+<li><a href="https://themes.gohugo.io/startbootstrap-clean-blog/">Startboostrap Clean Blog</a></li>
+</ul>
+
+<h3 id="site-layout">Site layout</h3>
+
+<p>This theme expects a relatively standard Hugo blog/personal site layout:</p>
+
+<pre><code>.
+└── content
+    ├── post
+    |   ├── release-1.8.0.md
+    |   ├── release-1.9.0.md
+    ├── documentation
+    |    ├── _index.md
+    |    ├── overview.md
+    |    ├── gestarted.md
+    └──── playground
+            ├── _index.md
+            ├── labels-and-icons.md
+            ├── basic-markdown
+</code></pre>
+
+<p><strong>Limitations</strong></p>
+
+<ul>
+<li>Every directory with new branch should contain <code>_index.md</code></li>
+<li>Weight of page specified in _index.md is actually for one level up</li>
+</ul>
+
+<h3 id="useful-links">Useful links</h3>
+
+<p>During theme development following links were found to be very useful</p>
+
+<ul>
+<li><a href="https://gohugohq.com/partials/shortcode-embedding-partials-from-content-markdown-files/">Embedding partials in markdown using a shortcode</a></li>
+<li><a href="https://discourse.gohugo.io/t/code-tabs-widget/975/5">Code tabs widgets</a></li>
+<li><a href="https://stackoverflow.com/questions/46207512/bootstrap-tabs-as-hugo-shortcodes">Bootstrap Tabs as Hugo Shortcodes</a></li>
+<li><a href="https://github.com/rstudio/blogdown/issues/36">How to use Latex expressions in blogdown?</a></li>
+<li><a href="https://stackoverflow.com/questions/24680030/align-images-side-by-side-in-html">Align images side by side in html</a></li>
+<li><a href="https://owlcation.com/stem/how-to-align-images-side-by-side">How to Align Images Side-by-Side Using HTML</a></li>
+<li><a href="https://stackoverflow.com/questions/14675913/how-to-change-image-size-markdown">How to change image size Markdown?</a></li>
+<li><a href="https://stackoverflow.com/questions/255170/markdown-and-image-alignment#answer-5054055">Markdown and image alignment</a></li>
+<li><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_float3">CSS with caption float left</a></li>
+<li><a href="https://jpescador.com/blog/leverage-shortcodes-in-hugo/">Leverage shortcodes in Hugo</a></li>
+<li><a href="https://www.liwen.id.au/heg/">Hugo Easy Gallery</a></li>
+<li><a href="https://github.com/gohugoio/hugo/issues/1768">About permalinks</a></li>
+<li><a href="http://www.ebadf.net/2016/10/19/centering-images-in-hugo/">Centering images in Hugo</a></li>
+<li><a href="https://www.adamwills.io/blog/responsive-images-hugo/">Responsive images in Hugo</a></li>
+<li><a href="http://yoshiharuyamashita.com/post/hugo-shortcode-to-show-multiple-images/">Hugo Shortcode to Show Multiple Images</a></li>
+<li><a href="https://monicagranbois.com/blog/webdev/formatting-code-with-pygments-and-jekyll/">Formatting Pygments linenos with Jekyll and Bootstrap</a></li>
+<li><a href="https://stackoverflow.com/questions/11664850/google-prettify-with-bootstrap-line-numbers-not-showing">Google Prettify with Bootstrap: Line Numbers Not Showing</a></li>
+<li><a href="http://pygments.org/demo/6640643/?style=native">Pygment styles demo</a></li>
+<li><a href="https://github.com/richleland/pygments-css">Pygment css</a></li>
+<li><a href="https://github.com/richleland/pygments-css">Small hortcode collection</a></li>
+<li><a href="https://github.com/gohugoio/hugo/tree/master/docs/layouts/shortcodes">More shorcodes</a></li>
+<li><a href="http://astronautweb.co/snippet/font-awesome/">Font awesome icons</a></li>
+<li><a href="https://discourse.gohugo.io/t/hugo-as-a-documentation-tool/112/39">Hugo as documentation tool</a></li>
+<li><a href="http://whipperstacker.com/2016/09/22/convert-an-existing-site-into-hugo/">Convert an existing site to Hugo</a></li>
+<li><a href="https://blog.philipphauer.de/moving-wordpress-hugo/">Moving Wordpress to Hugo</a></li>
+</ul>
 
 
     </div>

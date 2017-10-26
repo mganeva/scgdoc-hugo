@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/basic-highlight/</guid>
-      <description>This tutorial explains, how to insert Python snippets in the text with and without line numbering.
+      <description>Basic highlight This tutorial explains, how to insert Python snippets in the text with and without line numbering.
 Simple code fence Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
     </item>
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/embedded-files/</guid>
-      <description>This tutorial explains how to embed Python code from a script, located in certain directory.
+      <description>Python code embedded This tutorial explains how to embed Python code from a script, located in certain directory.
 Highlight the file located in static directory import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;quot;&amp;quot;&amp;quot; Prints &amp;#39;Hello World&amp;#39; message &amp;quot;&amp;quot;&amp;quot; b = Base() print(&amp;quot;Hello World&amp;quot;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  Highlight the file located in static directory (line numbers) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26import sys import numpy class Base:  &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
     </item>
     

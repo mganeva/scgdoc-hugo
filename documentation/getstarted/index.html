@@ -149,43 +149,55 @@ our <a href="https://github.com/scgmlz/scgdoc-hugo">Scientific Computing Group T
 <li>Archive will contain single binary which you will have to put to your <code>$HOME/bin</code> directory, for example</li>
 </ul>
 
-<h4 id="clone-the-prototype-of-our-site-run-hugo-on-it">Clone the prototype of our site, run Hugo on it</h4>
+<h4 id="cloning-our-site">Cloning our site</h4>
+
+<p>Our site repository contains two branches. <code>Master</code> branch contains the theme and markdown content of the site.
+<code>gh-pages</code> branch contains generated html.</p>
+
+<p>Clone our site.</p>
 
 <pre><code>$ git clone https://github.com/scgmlz/scgdoc-hugo.git
-$ cd &lt;source&gt;
+</code></pre>
+
+<p>While being in <code>master</code> branch configure <code>public</code> directory to be a worktree for <code>gh-pages</code> branch (should be done only once).</p>
+
+<pre><code>$ git worktree add -B gh-pages public origin/gh-pages
+</code></pre>
+
+<p>Put <code>public</code> branch in <code>.gitignore</code>.</p>
+
+<pre><code>$ touch gitignore; echo '.public' &gt;&gt; .gitignore;  echo '.gitignore' &gt;&gt; .gitignore
+</code></pre>
+
+<h4 id="run-hugo-make-you-first-changes">Run Hugo, make you first changes</h4>
+
+<p>Run Hugo server on <code>master</code> branch.</p>
+
+<pre><code>$ cd &lt;source&gt;
 $ hugo server -D
 </code></pre>
 
-<p>Open web-browser using address Hugo will tell you (most probably <a href="http://localhost:1313/scgdoc-hugo/">http://localhost:1313/scgdoc-hugo/</a>)</p>
+<p>Open web-browser using address Hugo will tell you (most probably <a href="http://localhost:1313/scgdoc-hugo/">http://localhost:1313/scgdoc-hugo/</a>).
+Modify <code>&lt;source&gt;/content/_index.md</code> and see updated landing page in a browser. Commit your changes.</p>
 
-<p>Please explain how to start.</p>
-
-<ul>
-<li>How to install hugo</li>
-<li>How to set-up gh-pages branch.</li>
-<li>How to modify content (i.e. add item to the documentation) and publish on gh-pages.</li>
-</ul>
-
-<h4 id="deployment-to-gh-pages-branch">Deployment to gh-pages branch</h4>
-
-<p>While being in master branch</p>
-
-<pre><code># remove previous publication
-rm -rf public
-mkdir public
-
-# clone gh-pages branch from the local repo into a repo located within &quot;public&quot;
-git clone .git --branch gh-pages public
-  
-# generate
-hugo
-  
-# commit the changes in the clone and push them back to the local gh-pages branch    
-cd public &amp;&amp; git add --all &amp;&amp; git commit -m &quot;Publishing to gh-pages&quot; &amp;&amp; git push origin gh-pages
-
-# publish
-git push upstream gh-pages
+<pre><code>$ cd &lt;source&gt;; git add _index.md; git commit -m &quot;my changes&quot;; git push
 </code></pre>
+
+<h4 id="publishing-new-version-of-web-site-on-github">Publishing new version of web site on GitHub</h4>
+
+<p>To generate new site in <code>public</code> run <code>hugo</code> without parameters.</p>
+
+<pre><code>$ hugo
+</code></pre>
+
+<p>Push new version of site to <code>gh-pages</code> using worktree syncronization.</p>
+
+<pre><code>cd public &amp;&amp; git add --all &amp;&amp; git commit -m &quot;Publishing to gh-pages&quot; &amp;&amp; git push origin gh-pages
+</code></pre>
+
+<p>See details in <a href="https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003">Deployment to gh-pages branch</a></p>
+
+<p>In few minutes, check <a href="https://scgmlz.github.io/scgdoc-hugo/">https://scgmlz.github.io/scgdoc-hugo/</a> to see if your changes have been successfully published.</p>
 
 
     </div>

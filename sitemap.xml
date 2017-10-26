@@ -143,15 +143,15 @@
   </url>
   
   <url>
-    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</loc>
-  </url>
-  
-  <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/</loc>
   </url>
   
   <url>
     <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</loc>
+  </url>
+  
+  <url>
+    <loc>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</loc>
   </url>
   
   <url>

@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/using-latex/</guid>
-      <description>Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Using Latex Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 $$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
     </item>
@@ -27,9 +27,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/alert-panels/</guid>
-      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+      <description>Allerts, notices and panels This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
 Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/buttons/</guid>
-      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+      <description>Action buttons Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
 Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
  go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
@@ -49,7 +49,7 @@ Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/labels-and-icons/</guid>
-      <description> Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+      <description> Labels and icons Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
 Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
     </item>
@@ -60,7 +60,7 @@ Icons from font awesome library in the list   fa-camera-retro  fa-align-justify 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/tutorial10/</guid>
-      <description>A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
+      <description>Tabs embedded, accordions A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Icons from font awesome library in the list   fa-camera-retro  fa-align-justify 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/video/</guid>
-      <description>Tutorial explains how to embed video.
+      <description>Youtube and staff Tutorial explains how to embed video.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>

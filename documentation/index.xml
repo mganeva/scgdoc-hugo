@@ -16,7 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
-      <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
+      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called scgdoc and is supported by the Scientific Computing Group at MLZ. The theme was heavilly borrowed from the following projects
+ docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a relatively standard Hugo blog/personal site layout:
+. └── content ├── post | ├── release-1.8.0.md | ├── release-1.</description>
     </item>
     
     <item>
@@ -26,7 +28,7 @@
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
       <description>How to get started Here we explain how to start playing with Hugo and our Scientific Computing Group Thema.
-Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Clone the prototype of our site, run Hugo on it $ git clone https://github.com/scgmlz/scgdoc-hugo.git $ cd &amp;lt;source&amp;gt; $ hugo server -D  Open web-browser using address Hugo will tell you (most probably http://localhost:1313/scgdoc-hugo/)</description>
+Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Cloning our site Our site repository contains two branches. Master branch contains the theme and markdown content of the site. gh-pages branch contains generated html.</description>
     </item>
     
     <item>

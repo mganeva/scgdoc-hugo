@@ -17,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/basic-highlight/</guid>
-      <description>This tutorial explains, how to insert Python snippets in the text with and without line numbering.
+      <description>Basic highlight This tutorial explains, how to insert Python snippets in the text with and without line numbering.
 Simple code fence Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
     </item>
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/basic-insert/</guid>
-      <description>From static directory Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Insert via markdown From static directory Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 From local directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
@@ -104,7 +104,9 @@ BornAgain graphical user interface doesn&amp;rsquo;t require any additional libr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
-      <description>Please explain in few sentences the basic idea of this template and choosen approach (github-pages + github + bootstrap). Give links to most important resources and tutorials.</description>
+      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called scgdoc and is supported by the Scientific Computing Group at MLZ. The theme was heavilly borrowed from the following projects
+ docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a relatively standard Hugo blog/personal site layout:
+. └── content ├── post | ├── release-1.8.0.md | ├── release-1.</description>
     </item>
     
     <item>
@@ -113,8 +115,8 @@ BornAgain graphical user interface doesn&amp;rsquo;t require any additional libr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/headers/</guid>
-      <description>Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
- Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>Paragraphs and headers Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
+     Paragraphs and headers   Welcome h1  Introduction h2  Subheading h3 Another Subheading h3  Subheading h4 Another subheading h4  Subheading h5  Subheading h6        Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
     <item>
@@ -183,7 +185,7 @@ This example is similar to the simulation in Born Approximation, CylindersInBA, 
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/</guid>
       <description>How to get started Here we explain how to start playing with Hugo and our Scientific Computing Group Thema.
-Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Clone the prototype of our site, run Hugo on it $ git clone https://github.com/scgmlz/scgdoc-hugo.git $ cd &amp;lt;source&amp;gt; $ hugo server -D  Open web-browser using address Hugo will tell you (most probably http://localhost:1313/scgdoc-hugo/)</description>
+Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Cloning our site Our site repository contains two branches. Master branch contains the theme and markdown content of the site. gh-pages branch contains generated html.</description>
     </item>
     
     <item>
@@ -192,7 +194,7 @@ Install Hugo  Downloads latest hugo from here. Archive will contain single binar
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/embedded-files/</guid>
-      <description>This tutorial explains how to embed Python code from a script, located in certain directory.
+      <description>Python code embedded This tutorial explains how to embed Python code from a script, located in certain directory.
 Highlight the file located in static directory import sys import numpy class Base: &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.x = None self.y = numpy.sin(numpy.pi/2.0) def value(self): return self.y def say_hello(): &amp;quot;&amp;quot;&amp;quot; Prints &amp;#39;Hello World&amp;#39; message &amp;quot;&amp;quot;&amp;quot; b = Base() print(&amp;quot;Hello World&amp;quot;, b.value()) if __name__ == &amp;#39;__main__&amp;#39;: say_hello()  Highlight the file located in static directory (line numbers) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26import sys import numpy class Base:  &amp;quot;&amp;quot;&amp;quot; Base class &amp;quot;&amp;quot;&amp;quot; def __init__(self): self.</description>
     </item>
     
@@ -202,7 +204,7 @@ Highlight the file located in static directory import sys import numpy class Bas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figure-shortcode/</guid>
-      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Standard figure shortcode Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
@@ -242,9 +244,8 @@ The Big Picture BornAgain is designed to be immediately useful for users with li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figfancy-shortcode/</guid>
-      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <description>Custom figfancy shortcode Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>
     
     <item>
@@ -267,22 +268,12 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
     </item>
     
     <item>
-      <title>Installation on Unix (short version)</title>
-      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</guid>
-      <description>Installation on Unix (short version) This page shortly explains how to build and install BornAgain from source on Unix platforms.
-Install third party software  Compiler with C++-11 full support (i.e. gcc&amp;gt;= 4.9) cmake (&amp;gt;= 2.8.11) boost library (&amp;gt;= 1.48) eigen3 (&amp;gt;= 2.91.0) fftw3 library (&amp;gt;= 3.3.1) gsl (GNU scientific library, &amp;gt;= 1.15) libtiff library (&amp;gt;=4.0.2) python-2.7, python-devel, python-numpy-devel Qt5 (&amp;gt;=5.4) libyaml-cpp (&amp;gt;=0.5)  Get the source Download the BornAgain source tarball or use the following git repository</description>
-    </item>
-    
-    <item>
       <title>List elements</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/</guid>
-      <description>Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
+      <description>List elements Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
 Unordered list  item 1 item 2  Another item Another item Another item  item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b   Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
     
@@ -293,6 +284,16 @@ Unordered list  item 1 item 2  Another item Another item Another item  item 3 it
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</guid>
       <description>What&amp;rsquo;s next Resolve few remaining hugo-related technical issues  Occasional failures during side bar generation Math expressions in Latex inlined Less verbose shortcode for embedded Python scripts  Create final BornAgain thema for Hugo  Design BornAgain thema  Design layout, main landing page, color schema, polish css Pay attention to responsiveness Gallery, screenshot section  Provide additional Hugo magic  Automotize new release publishing (e.g. BornAgain version number in download links) Provide documentation versioning (is it still necessary?</description>
+    </item>
+    
+    <item>
+      <title>Installation on Unix (short version)</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/</guid>
+      <description>Installation on Unix (short version) This page shortly explains how to build and install BornAgain from source on Unix platforms.
+Install third party software  Compiler with C++-11 full support (i.e. gcc&amp;gt;= 4.9) cmake (&amp;gt;= 2.8.11) boost library (&amp;gt;= 1.48) eigen3 (&amp;gt;= 2.91.0) fftw3 library (&amp;gt;= 3.3.1) gsl (GNU scientific library, &amp;gt;= 1.15) libtiff library (&amp;gt;=4.0.2) python-2.7, python-devel, python-numpy-devel Qt5 (&amp;gt;=5.4) libyaml-cpp (&amp;gt;=0.5)  Get the source Download the BornAgain source tarball or use the following git repository</description>
     </item>
     
     <item>
@@ -310,10 +311,9 @@ Unordered list  item 1 item 2  Another item Another item Another item  item 3 it
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figscg-shortcode/</guid>
-      <description>Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Custom figscg shortcode Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>
     
     <item>
@@ -331,7 +331,7 @@ With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/table-elements/</guid>
-      <description>Page demonstrates basic table elements and their appearance in difference context.
+      <description>Table elements Page demonstrates basic table elements and their appearance in difference context.
 Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
    Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
@@ -342,7 +342,7 @@ Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/easy-gallery/</guid>
-      <description>Gallery of specific files Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Easy gallery                         Gallery of specific files Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
     Anisopyramid
       Box</description>
     </item>
@@ -353,7 +353,7 @@ Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/link-elements/</guid>
-      <description>External and internal links in various context.
+      <description>Link elements External and internal links in various context.
 External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem ea nec, quas ferri veniam vix ei. Modo postea appetere ius et, viris dolore mei eu.</description>
     </item>
@@ -364,7 +364,7 @@ Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem e
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/using-latex/</guid>
-      <description>Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      <description>Using Latex Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 $$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
     </item>
@@ -375,9 +375,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/alert-panels/</guid>
-      <description>This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+      <description>Allerts, notices and panels This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
 Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</description>
     </item>
     
     <item>
@@ -386,7 +386,7 @@ this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/buttons/</guid>
-      <description>Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+      <description>Action buttons Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
 Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
  go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
     </item>
@@ -397,7 +397,7 @@ Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/labels-and-icons/</guid>
-      <description> Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+      <description> Labels and icons Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
 Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
     </item>
@@ -408,7 +408,7 @@ Icons from font awesome library in the list   fa-camera-retro  fa-align-justify 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/tutorial10/</guid>
-      <description>A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
+      <description>Tabs embedded, accordions A page with information structured in accordion-manner, or in tabs (e.g. installation instruction in tab &amp;ldquo;Windows&amp;rdquo; and tab &amp;ldquo;Linux&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -417,7 +417,7 @@ Icons from font awesome library in the list   fa-camera-retro  fa-align-justify 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/video/</guid>
-      <description>Tutorial explains how to embed video.
+      <description>Youtube and staff Tutorial explains how to embed video.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
     </item>
