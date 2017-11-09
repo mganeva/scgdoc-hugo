@@ -99,6 +99,17 @@ BornAgain graphical user interface doesn&amp;rsquo;t require any additional libr
     </item>
     
     <item>
+      <title>Material types</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-python/materialtypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-python/materialtypes/</guid>
+      <description>Material types Currently two material types are available in BornAgain: HomogeneousMaterial and MaterialBySLD.
+First of them is created with the following syntax:
+magnetization = ba.kvector_t(1.0, 0.0, 0.0) &amp;lt;material&amp;gt; = ba.HomogeneousMaterial(&amp;quot;name&amp;quot;, delta, beta, magnetization)  where name is the arbitrary name of the material associated with its complex refractive index $n = 1 - delta + i \cdot beta$. magnetization defines a 3D magnetization vector (in A/m). Variable &amp;lt;material&amp;gt; is later used when referring to this particular material.</description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
