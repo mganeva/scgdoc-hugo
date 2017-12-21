@@ -18,6 +18,8 @@
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/mathjax-style.css" rel="stylesheet">
 
+<link href="https://scgmlz.github.io/scgdoc-hugo//css/vs.css" rel="stylesheet">
+
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -199,7 +201,7 @@
 
 
 
-<table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%"><code class="language-python" data-lang="python"> 1
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><code class="language-python" data-lang="python"> 1
  2
  3
  4
@@ -268,81 +270,80 @@
 67
 68
 69
-70</code></pre></div></td><td class="code"><div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span><span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">Cylinders with size distribution</span>
-<span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #0000ff">import</span> bornagain <span style="color: #0000ff">as</span> ba
-<span style="color: #0000ff">from</span> bornagain <span style="color: #0000ff">import</span> deg, angstrom, nm
+70</code></pre></div></td><td class="code"><div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Cylinders with size distribution</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">bornagain</span> <span class="kn">as</span> <span class="nn">ba</span>
+<span class="kn">from</span> <span class="nn">bornagain</span> <span class="kn">import</span> <span class="n">deg</span><span class="p">,</span> <span class="n">angstrom</span><span class="p">,</span> <span class="n">nm</span>
 
 
-<span style="color: #0000ff">def</span> get_sample():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Return a sample with cylinders on a substrate.</span>
-<span style="color: #a31515">    The cylinders have a Gaussian size distribution.</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    m_ambience = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;Air&quot;</span>, 0.0, 0.0)
-    m_particle = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;Particle&quot;</span>, 6e-4, 2e-8)
+<span class="k">def</span> <span class="nf">get_sample</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return a sample with cylinders on a substrate.</span>
+<span class="sd">    The cylinders have a Gaussian size distribution.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">m_ambience</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;Air&quot;</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+    <span class="n">m_particle</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;Particle&quot;</span><span class="p">,</span> <span class="mf">6e-4</span><span class="p">,</span> <span class="mf">2e-8</span><span class="p">)</span>
 
-    <span style="color: #008000"># cylindrical particle</span>
-    radius = 5*nm
-    height = radius
-    cylinder_ff = ba.FormFactorCylinder(radius, height)
-    cylinder = ba.Particle(m_particle, cylinder_ff)
+    <span class="c1"># cylindrical particle</span>
+    <span class="n">radius</span> <span class="o">=</span> <span class="mi">5</span><span class="o">*</span><span class="n">nm</span>
+    <span class="n">height</span> <span class="o">=</span> <span class="n">radius</span>
+    <span class="n">cylinder_ff</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">FormFactorCylinder</span><span class="p">(</span><span class="n">radius</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+    <span class="n">cylinder</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">Particle</span><span class="p">(</span><span class="n">m_particle</span><span class="p">,</span> <span class="n">cylinder_ff</span><span class="p">)</span>
 
-    <span style="color: #008000"># collection of particles with size distribution</span>
-    nparticles = 100
-    sigma = 0.2*radius
+    <span class="c1"># collection of particles with size distribution</span>
+    <span class="n">nparticles</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="n">sigma</span> <span class="o">=</span> <span class="mf">0.2</span><span class="o">*</span><span class="n">radius</span>
 
-    gauss_distr = ba.DistributionGaussian(radius, sigma)
+    <span class="n">gauss_distr</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">DistributionGaussian</span><span class="p">(</span><span class="n">radius</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span>
 
-    sigma_factor = 2.0
-    par_distr = ba.ParameterDistribution(
-        <span style="color: #a31515">&quot;/Particle/Cylinder/Radius&quot;</span>, gauss_distr, nparticles, sigma_factor)
-    <span style="color: #008000"># by uncommenting the line below, the height of the cylinders</span>
-    <span style="color: #008000">#   can be scaled proportionally to the radius:</span>
-    <span style="color: #008000"># par_distr.linkParameter(&quot;/Particle/Cylinder/Height&quot;)</span>
-    part_coll = ba.ParticleDistribution(cylinder, par_distr)
+    <span class="n">sigma_factor</span> <span class="o">=</span> <span class="mf">2.0</span>
+    <span class="n">par_distr</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">ParameterDistribution</span><span class="p">(</span>
+        <span class="s2">&quot;/Particle/Cylinder/Radius&quot;</span><span class="p">,</span> <span class="n">gauss_distr</span><span class="p">,</span> <span class="n">nparticles</span><span class="p">,</span> <span class="n">sigma_factor</span><span class="p">)</span>
+    <span class="c1"># by uncommenting the line below, the height of the cylinders</span>
+    <span class="c1">#   can be scaled proportionally to the radius:</span>
+    <span class="c1"># par_distr.linkParameter(&quot;/Particle/Cylinder/Height&quot;)</span>
+    <span class="n">part_coll</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">ParticleDistribution</span><span class="p">(</span><span class="n">cylinder</span><span class="p">,</span> <span class="n">par_distr</span><span class="p">)</span>
 
-    <span style="color: #008000"># assembling the sample</span>
-    particle_layout = ba.ParticleLayout()
-    particle_layout.addParticle(part_coll)
+    <span class="c1"># assembling the sample</span>
+    <span class="n">particle_layout</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">ParticleLayout</span><span class="p">()</span>
+    <span class="n">particle_layout</span><span class="o">.</span><span class="n">addParticle</span><span class="p">(</span><span class="n">part_coll</span><span class="p">)</span>
 
-    air_layer = ba.Layer(m_ambience)
-    air_layer.addLayout(particle_layout)
-    multi_layer = ba.MultiLayer()
-    multi_layer.addLayer(air_layer)
-    <span style="color: #0000ff">return</span> multi_layer
-
-
-<span style="color: #0000ff">def</span> get_simulation():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Create and return GISAXS simulation with beam and detector defined</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    simulation = ba.GISASSimulation()
-    simulation.setDetectorParameters(200, 0.0*deg, 2.0*deg,
-                                     200, 0.0*deg, 2.0*deg)
-    simulation.setBeamParameters(1.0*angstrom, 0.2*deg, 0.0*deg)
-    <span style="color: #0000ff">return</span> simulation
+    <span class="n">air_layer</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">Layer</span><span class="p">(</span><span class="n">m_ambience</span><span class="p">)</span>
+    <span class="n">air_layer</span><span class="o">.</span><span class="n">addLayout</span><span class="p">(</span><span class="n">particle_layout</span><span class="p">)</span>
+    <span class="n">multi_layer</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MultiLayer</span><span class="p">()</span>
+    <span class="n">multi_layer</span><span class="o">.</span><span class="n">addLayer</span><span class="p">(</span><span class="n">air_layer</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">multi_layer</span>
 
 
-<span style="color: #0000ff">def</span> run_simulation():
-    <span style="color: #a31515">&quot;&quot;&quot;</span>
-<span style="color: #a31515">    Runs simulation and returns intensity map.</span>
-<span style="color: #a31515">    &quot;&quot;&quot;</span>
-    simulation = get_simulation()
-    simulation.setSample(get_sample())
-    simulation.runSimulation()
-    <span style="color: #0000ff">return</span> simulation.getIntensityData()
+<span class="k">def</span> <span class="nf">get_simulation</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create and return GISAXS simulation with beam and detector defined</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">simulation</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">GISASSimulation</span><span class="p">()</span>
+    <span class="n">simulation</span><span class="o">.</span><span class="n">setDetectorParameters</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mf">0.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">2.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span>
+                                     <span class="mi">200</span><span class="p">,</span> <span class="mf">0.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">2.0</span><span class="o">*</span><span class="n">deg</span><span class="p">)</span>
+    <span class="n">simulation</span><span class="o">.</span><span class="n">setBeamParameters</span><span class="p">(</span><span class="mf">1.0</span><span class="o">*</span><span class="n">angstrom</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">0.0</span><span class="o">*</span><span class="n">deg</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">simulation</span>
 
 
-<span style="color: #0000ff">if</span> __name__ == <span style="color: #a31515">&#39;__main__&#39;</span>:
-    result = run_simulation()
-    ba.plot_intensity_data(result)
+<span class="k">def</span> <span class="nf">run_simulation</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Runs simulation and returns intensity map.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">simulation</span> <span class="o">=</span> <span class="n">get_simulation</span><span class="p">()</span>
+    <span class="n">simulation</span><span class="o">.</span><span class="n">setSample</span><span class="p">(</span><span class="n">get_sample</span><span class="p">())</span>
+    <span class="n">simulation</span><span class="o">.</span><span class="n">runSimulation</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">simulation</span><span class="o">.</span><span class="n">getIntensityData</span><span class="p">()</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">run_simulation</span><span class="p">()</span>
+    <span class="n">ba</span><span class="o">.</span><span class="n">plot_intensity_data</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </code></pre></div>
 </td></tr></table>
 
-<p><span class="fa fa-save" aria-hidden="true"></span>
-<a href="https://scgmlz.github.io/scgdoc-hugo//documentation/bornagain/python-examples/embedded-particles/CylindersWithSizeDistribution.py"/>
+<p><a class="linktofile" href="https://scgmlz.github.io/scgdoc-hugo//documentation/bornagain/python-examples/embedded-particles/CylindersWithSizeDistribution.py"/>
     
 CylindersWithSizeDistribution.py
 
@@ -356,80 +357,63 @@ CylindersWithSizeDistribution.py
       
     <ul class="doctree">
 
-    <li data-nav-id="/documentation/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/">
         <span>Documentation</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/overview/" class="dd-item ">
+      <li data-nav-id="/documentation/overview/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/overview/">
         <span>Overview</span> 
         </a></li>
-      <li data-nav-id="/documentation/getstarted/" class="dd-item ">
+      <li data-nav-id="/documentation/getstarted/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/">
         <span>Get started</span> 
         </a></li>
-      <li data-nav-id="/documentation/whats-next/" class="dd-item ">
+      <li data-nav-id="/documentation/whats-next/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/">
         <span>What&#39;s next</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/playground/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/">
         <span>Playground</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/playground/basic-markdown/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/basic-markdown/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/">
         <span>Basic markdown</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/basic-markdown/headers/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/headers/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/headers/">
         <span>Paragraphs and headers</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/emphasis/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/emphasis/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/emphasis/">
         <span>Emphasis</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/list-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/list-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/">
         <span>List elements</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/table-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/table-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/table-elements/">
         <span>Table elements</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/link-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/link-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/link-elements/">
         <span>Link elements</span> 
@@ -438,29 +422,23 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/code-highlight/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/code-highlight/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/">
         <span>Code highlight</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/code-highlight/basic-highlight/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/basic-highlight/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/basic-highlight/">
         <span>Basic highlight</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/code-highlight/embedded-files/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/embedded-files/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/embedded-files/">
         <span>Python code embedded</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/code-highlight/client-side/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/client-side/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/client-side/">
         <span>Highlight on client side</span> 
@@ -469,39 +447,33 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/insert-image/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/insert-image/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/">
         <span>Insert images</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/insert-image/basic-insert/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/basic-insert/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/basic-insert/">
         <span>Insert via markdown</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figure-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figure-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figure-shortcode/">
         <span>Standard figure shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figfancy-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figfancy-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figfancy-shortcode/">
         <span>Custom figfancy shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figscg-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figscg-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figscg-shortcode/">
         <span>Custom figscg shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/easy-gallery/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/easy-gallery/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/easy-gallery/">
         <span>Easy gallery</span> 
@@ -510,47 +482,35 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/children/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/children/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/">
         <span>Children shortcode</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/children/child1/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child1/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child1/">
         <span>Child1</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/children/child2/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child2/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child2/">
         <span>Child2</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/playground/children/child3/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/children/child3/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/">
         <span>Child3</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/children/child3/grandchild1/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child3/grandchild1/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild1/">
         <span>Grandchild1</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/children/child3/grandchild2/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child3/grandchild2/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild2/">
         <span>Grandchild2</span> 
@@ -558,7 +518,7 @@ CylindersWithSizeDistribution.py
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/playground/children/child4/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child4/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child4/">
         <span>Child4</span> 
@@ -566,32 +526,32 @@ CylindersWithSizeDistribution.py
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/playground/using-latex/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/using-latex/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/using-latex/">
         <span>Using Latex</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/alert-panels/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/alert-panels/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/alert-panels/">
         <span>Allerts, notices and panels</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/buttons/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/buttons/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/buttons/">
         <span>Action buttons</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/labels-and-icons/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/labels-and-icons/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/labels-and-icons/">
         <span>Labels and icons</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/tutorial10/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/tutorial10/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/tutorial10/">
         <span>Tabs embedded, accordions</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/video/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/video/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/video/">
         <span>Youtube and staff</span> 
@@ -600,60 +560,43 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/">
         <span>BornAgain</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/welcome/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/welcome/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/">
         <span>Welcome to BornAgain</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/architectural-overview/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/architectural-overview/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/">
         <span>Architectural overview</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/">
         <span>Installation instructions</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/windows/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/windows/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/windows/">
         <span>Installation on Windows</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
         <span>Installation on MacOS</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">
         <span>Advanced tips</span> 
@@ -661,40 +604,34 @@ CylindersWithSizeDistribution.py
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-short/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-short/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/">
         <span>Installation on Unix (short version)</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/unix-detailed/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/unix-detailed/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/">
         <span>Installation on Unix (detailed version)</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/get-source/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/get-source/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/get-source/">
         <span>Get the source</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/third-party/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/third-party/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/third-party/">
         <span>Install the third party software</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/build-and-install/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/build-and-install/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/build-and-install/">
         <span>Build and install the framework</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/first-simulation/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/first-simulation/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/first-simulation/">
         <span>Run the first simulation</span> 
@@ -706,37 +643,27 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/">
         <span>Examples of BornAgain usage</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/">
         <span>Embedded particles</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersinba/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersinba/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/">
         <span>Cylinders in Born Approximation</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/">
         <span>Cylinders in Distorted Wave Born Approximation</span> 
@@ -750,24 +677,18 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/">
         <span>Layered structures</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/buriedparticles/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/buriedparticles/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/">
         <span>Buried particles</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/correlatedroughness/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/correlatedroughness/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/">
         <span>Correlated roughness</span> 
@@ -779,32 +700,20 @@ CylindersWithSizeDistribution.py
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/working-with-bornagain/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/working-with-bornagain/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/">
         <span>Working with BornAgain</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-python/">
         <span>Working with Python scripts</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/materialtypes/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/materialtypes/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-python/materialtypes/">
         <span>Material types</span> 

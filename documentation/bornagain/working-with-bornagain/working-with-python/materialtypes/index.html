@@ -18,6 +18,8 @@
 
 <link href="https://scgmlz.github.io/scgdoc-hugo//css/mathjax-style.css" rel="stylesheet">
 
+<link href="https://scgmlz.github.io/scgdoc-hugo//css/vs.css" rel="stylesheet">
+
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -164,8 +166,8 @@
 
 <p>First of them is created with the following syntax:</p>
 
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span>magnetization = ba.kvector_t(1.0, 0.0, 0.0)
-&lt;material&gt; = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;name&quot;</span>, delta, beta, magnetization)
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">magnetization</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">kvector_t</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+<span class="o">&lt;</span><span class="n">material</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">delta</span><span class="p">,</span> <span class="n">beta</span><span class="p">,</span> <span class="n">magnetization</span><span class="p">)</span>
 </code></pre></div>
 
 
@@ -174,19 +176,19 @@
 
 <p><code>magnetization</code> can be omitted in material construction. It is assumed to be zero then:</p>
 
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span>&lt;material&gt; = ba.HomogeneousMaterial(<span style="color: #a31515">&quot;name&quot;</span>, delta, beta)
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="o">&lt;</span><span class="n">material</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">delta</span><span class="p">,</span> <span class="n">beta</span><span class="p">)</span>
 </code></pre></div>
 
 
 <p><code>MaterialBySLD</code> can be created with the expression</p>
 
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span>&lt;material&gt; = ba.MaterialBySLD(<span style="color: #a31515">&quot;name&quot;</span>, sld, abs_term, magnetization)
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="o">&lt;</span><span class="n">material</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MaterialBySLD</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">sld</span><span class="p">,</span> <span class="n">abs_term</span><span class="p">,</span> <span class="n">magnetization</span><span class="p">)</span>
 </code></pre></div>
 
 
 <p>or, omitting <code>magnetization</code> again,</p>
 
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span>&lt;material&gt; = ba.MaterialBySLD(<span style="color: #a31515">&quot;name&quot;</span>, sld, abs_term)
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="o">&lt;</span><span class="n">material</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MaterialBySLD</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">sld</span><span class="p">,</span> <span class="n">abs_term</span><span class="p">)</span>
 </code></pre></div>
 
 
@@ -198,8 +200,8 @@
 wavelength. <code>abs_term</code> dimension is as one of <code>sld</code>, $nm^{-2}$.</p>
 
 <p>For user convenience an additional function to construct <code>MaterialBySLD</code> is provided:
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-python" data-lang="python"><span></span>material1 = ba.MaterialByAbsCX(<span style="color: #a31515">&quot;name&quot;</span>, sld, Sigma, magnetization)
-material2 = ba.MaterialByAbsCX(<span style="color: #a31515">&quot;name&quot;</span>, sld, Sigma)
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">material1</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MaterialByAbsCX</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">sld</span><span class="p">,</span> <span class="n">Sigma</span><span class="p">,</span> <span class="n">magnetization</span><span class="p">)</span>
+<span class="n">material2</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MaterialByAbsCX</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">sld</span><span class="p">,</span> <span class="n">Sigma</span><span class="p">)</span>
 </code></pre></div>
 </p>
 
@@ -218,8 +220,8 @@ alert-warning"
 role="alert"><p>Although <code>MaterialBySLD</code> and <code>HomogeneousMaterial</code> are interchangeable in the case of neutron experiments on one wavelength,
 they must not be used together in one sample because of different behavior inside BornAgain. If they are, an exception will be thrown
 by <code>Simulation</code> class:</p>
-<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><code class="language-bash" data-lang="bash"><span></span>terminate called after throwing an instance of <span style="color: #a31515">&#39;std::runtime_error&#39;</span>
-  what():  Error in Simulation::prepareSimulation(): non-default materials of several types in the sample provided
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>terminate called after throwing an instance of <span class="s1">&#39;std::runtime_error&#39;</span>
+  what<span class="o">()</span>:  Error in Simulation::prepareSimulation<span class="o">()</span>: non-default materials of several types in the sample provided
 </code></pre></div>
 </div>
 
@@ -231,80 +233,63 @@ by <code>Simulation</code> class:</p>
       
     <ul class="doctree">
 
-    <li data-nav-id="/documentation/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/">
         <span>Documentation</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/overview/" class="dd-item ">
+      <li data-nav-id="/documentation/overview/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/overview/">
         <span>Overview</span> 
         </a></li>
-      <li data-nav-id="/documentation/getstarted/" class="dd-item ">
+      <li data-nav-id="/documentation/getstarted/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/getstarted/">
         <span>Get started</span> 
         </a></li>
-      <li data-nav-id="/documentation/whats-next/" class="dd-item ">
+      <li data-nav-id="/documentation/whats-next/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/">
         <span>What&#39;s next</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/playground/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/">
         <span>Playground</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/playground/basic-markdown/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/basic-markdown/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/">
         <span>Basic markdown</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/basic-markdown/headers/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/headers/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/headers/">
         <span>Paragraphs and headers</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/emphasis/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/emphasis/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/emphasis/">
         <span>Emphasis</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/list-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/list-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/list-elements/">
         <span>List elements</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/table-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/table-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/table-elements/">
         <span>Table elements</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/basic-markdown/link-elements/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/basic-markdown/link-elements/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/basic-markdown/link-elements/">
         <span>Link elements</span> 
@@ -313,29 +298,23 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/code-highlight/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/code-highlight/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/">
         <span>Code highlight</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/code-highlight/basic-highlight/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/basic-highlight/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/basic-highlight/">
         <span>Basic highlight</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/code-highlight/embedded-files/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/embedded-files/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/embedded-files/">
         <span>Python code embedded</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/code-highlight/client-side/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/code-highlight/client-side/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/code-highlight/client-side/">
         <span>Highlight on client side</span> 
@@ -344,39 +323,33 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/insert-image/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/insert-image/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/">
         <span>Insert images</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/insert-image/basic-insert/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/basic-insert/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/basic-insert/">
         <span>Insert via markdown</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figure-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figure-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figure-shortcode/">
         <span>Standard figure shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figfancy-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figfancy-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figfancy-shortcode/">
         <span>Custom figfancy shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/figscg-shortcode/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/figscg-shortcode/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/figscg-shortcode/">
         <span>Custom figscg shortcode</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/insert-image/easy-gallery/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/insert-image/easy-gallery/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/insert-image/easy-gallery/">
         <span>Easy gallery</span> 
@@ -385,47 +358,35 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/playground/children/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/children/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/">
         <span>Children shortcode</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/children/child1/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child1/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child1/">
         <span>Child1</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/children/child2/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child2/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child2/">
         <span>Child2</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/playground/children/child3/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/playground/children/child3/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/">
         <span>Child3</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/playground/children/child3/grandchild1/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child3/grandchild1/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild1/">
         <span>Grandchild1</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/children/child3/grandchild2/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child3/grandchild2/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child3/grandchild2/">
         <span>Grandchild2</span> 
@@ -433,7 +394,7 @@ by <code>Simulation</code> class:</p>
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/playground/children/child4/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/children/child4/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child4/">
         <span>Child4</span> 
@@ -441,32 +402,32 @@ by <code>Simulation</code> class:</p>
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/playground/using-latex/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/using-latex/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/using-latex/">
         <span>Using Latex</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/alert-panels/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/alert-panels/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/alert-panels/">
         <span>Allerts, notices and panels</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/buttons/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/buttons/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/buttons/">
         <span>Action buttons</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/labels-and-icons/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/labels-and-icons/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/labels-and-icons/">
         <span>Labels and icons</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/tutorial10/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/tutorial10/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/tutorial10/">
         <span>Tabs embedded, accordions</span> 
         </a></li>
-      <li data-nav-id="/documentation/playground/video/" class="dd-item ">
+      <li data-nav-id="/documentation/playground/video/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/playground/video/">
         <span>Youtube and staff</span> 
@@ -475,60 +436,43 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/">
         <span>BornAgain</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/welcome/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/welcome/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/">
         <span>Welcome to BornAgain</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/architectural-overview/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/architectural-overview/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/architectural-overview/">
         <span>Architectural overview</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/">
         <span>Installation instructions</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/windows/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/windows/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/windows/">
         <span>Installation on Windows</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/macos/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/">
         <span>Installation on MacOS</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/macos/advanced-tips/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/macos/advanced-tips/">
         <span>Advanced tips</span> 
@@ -536,40 +480,34 @@ by <code>Simulation</code> class:</p>
 
         </ul>
     </li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-short/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-short/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-short/">
         <span>Installation on Unix (short version)</span> 
         </a></li>
 
-    <li data-nav-id="/documentation/bornagain/installation/unix-detailed/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/installation/unix-detailed/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/">
         <span>Installation on Unix (detailed version)</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/get-source/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/get-source/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/get-source/">
         <span>Get the source</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/third-party/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/third-party/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/third-party/">
         <span>Install the third party software</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/build-and-install/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/build-and-install/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/build-and-install/">
         <span>Build and install the framework</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/first-simulation/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/installation/unix-detailed/first-simulation/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/installation/unix-detailed/first-simulation/">
         <span>Run the first simulation</span> 
@@ -581,42 +519,30 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/">
         <span>Examples of BornAgain usage</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/">
         <span>Embedded particles</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersinba/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersinba/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersinba/">
         <span>Cylinders in Born Approximation</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylindersindwba/">
         <span>Cylinders in Distorted Wave Born Approximation</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/cylinderswithsizedistribution/">
         <span>Cylinders with size distribution</span> 
@@ -625,24 +551,18 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/" class="dd-item 
-        
-        
-        
-        ">
-
-      <i class="fa liClosed li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/" class="dd-item"><i class="fa liClosed li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/">
         <span>Layered structures</span>
       </a>
         <ul>
-      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/buriedparticles/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/buriedparticles/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/buriedparticles/">
         <span>Buried particles</span> 
         </a></li>
-      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/correlatedroughness/" class="dd-item ">
+      <li data-nav-id="/documentation/bornagain/python-examples/layered-structures/correlatedroughness/" class="dd-item">
         <i class="fa liSingle li-item-icon"></i>
         <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/layered-structures/correlatedroughness/">
         <span>Correlated roughness</span> 
@@ -654,26 +574,16 @@ by <code>Simulation</code> class:</p>
         </ul>
     </li>
 
-    <li data-nav-id="/documentation/bornagain/working-with-bornagain/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/working-with-bornagain/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/">
         <span>Working with BornAgain</span>
       </a>
         <ul>
 
-    <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/" class="dd-item 
-        parent
-        
-        
-        ">
-
-      <i class="fa liOpened li-item-icon"></i>
+    <li data-nav-id="/documentation/bornagain/working-with-bornagain/working-with-python/" class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
 
       <a href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-python/">
         <span>Working with Python scripts</span>
