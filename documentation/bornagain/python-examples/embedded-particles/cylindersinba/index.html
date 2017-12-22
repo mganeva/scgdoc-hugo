@@ -200,6 +200,11 @@
 
 
 
+
+
+
+
+
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><code class="language-python" data-lang="python"> 1
  2
  3
@@ -310,70 +315,9 @@
 </code></pre></div>
 </td></tr></table>
 
-<p><a class="linktofile" href="https://scgmlz.github.io/scgdoc-hugo//documentation/bornagain/python-examples/embedded-particles/CylindersInBA.py"/>
-    
-CylindersInBA.py
-
+<a class="linktofile" href="https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/python-examples/embedded-particles/CylindersInBA.py"/>
+    CylindersInBA.py
 </a>
-</p>
-
-
-
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Cylinder formfactor in Born approximation</span>
-<span class="sd">&quot;&quot;&quot;</span>
-<span class="kn">import</span> <span class="nn">bornagain</span> <span class="kn">as</span> <span class="nn">ba</span>
-<span class="kn">from</span> <span class="nn">bornagain</span> <span class="kn">import</span> <span class="n">deg</span><span class="p">,</span> <span class="n">angstrom</span><span class="p">,</span> <span class="n">nm</span>
-
-
-<span class="k">def</span> <span class="nf">get_sample</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Returns a sample with cylinders in a homogeneous environment (&quot;air&quot;),</span>
-<span class="sd">    implying a simulation in plain Born approximation.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># defining materials</span>
-    <span class="n">m_ambience</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;Air&quot;</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
-    <span class="n">m_particle</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">HomogeneousMaterial</span><span class="p">(</span><span class="s2">&quot;Particle&quot;</span><span class="p">,</span> <span class="mf">6e-4</span><span class="p">,</span> <span class="mf">2e-8</span><span class="p">)</span>
-
-    <span class="c1"># collection of particles</span>
-    <span class="n">cylinder_ff</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">FormFactorCylinder</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">nm</span><span class="p">,</span> <span class="mi">5</span><span class="o">*</span><span class="n">nm</span><span class="p">)</span>
-    <span class="n">cylinder</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">Particle</span><span class="p">(</span><span class="n">m_particle</span><span class="p">,</span> <span class="n">cylinder_ff</span><span class="p">)</span>
-    <span class="n">particle_layout</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">ParticleLayout</span><span class="p">()</span>
-    <span class="n">particle_layout</span><span class="o">.</span><span class="n">addParticle</span><span class="p">(</span><span class="n">cylinder</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
-
-    <span class="n">air_layer</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">Layer</span><span class="p">(</span><span class="n">m_ambience</span><span class="p">)</span>
-    <span class="n">air_layer</span><span class="o">.</span><span class="n">addLayout</span><span class="p">(</span><span class="n">particle_layout</span><span class="p">)</span>
-
-    <span class="n">multi_layer</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">MultiLayer</span><span class="p">()</span>
-    <span class="n">multi_layer</span><span class="o">.</span><span class="n">addLayer</span><span class="p">(</span><span class="n">air_layer</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">multi_layer</span>
-
-
-<span class="k">def</span> <span class="nf">get_simulation</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Returns a GISAXS simulation with beam and detector defined</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">simulation</span> <span class="o">=</span> <span class="n">ba</span><span class="o">.</span><span class="n">GISASSimulation</span><span class="p">()</span>
-    <span class="n">simulation</span><span class="o">.</span><span class="n">setDetectorParameters</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">2.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span>
-                                     <span class="mi">200</span><span class="p">,</span> <span class="mf">0.0</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">2.0</span><span class="o">*</span><span class="n">deg</span><span class="p">)</span>
-    <span class="n">simulation</span><span class="o">.</span><span class="n">setBeamParameters</span><span class="p">(</span><span class="mf">1.0</span><span class="o">*</span><span class="n">angstrom</span><span class="p">,</span> <span class="mf">0.2</span><span class="o">*</span><span class="n">deg</span><span class="p">,</span> <span class="mf">0.0</span><span class="o">*</span><span class="n">deg</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">simulation</span>
-
-
-<span class="k">def</span> <span class="nf">run_simulation</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Runs simulation and returns intensity map.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">simulation</span> <span class="o">=</span> <span class="n">get_simulation</span><span class="p">()</span>
-    <span class="n">simulation</span><span class="o">.</span><span class="n">setSample</span><span class="p">(</span><span class="n">get_sample</span><span class="p">())</span>
-    <span class="n">simulation</span><span class="o">.</span><span class="n">runSimulation</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">simulation</span><span class="o">.</span><span class="n">getIntensityData</span><span class="p">()</span>
-
-
-<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="n">run_simulation</span><span class="p">()</span>
-    <span class="n">ba</span><span class="o">.</span><span class="n">plot_intensity_data</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-</code></pre></div>
 
 
 
