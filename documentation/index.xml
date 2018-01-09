@@ -16,9 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/overview/</guid>
-      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called scgdoc and is supported by the Scientific Computing Group at MLZ. The theme was heavilly borrowed from the following projects
- docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a relatively standard Hugo blog/personal site layout:
-. └── content ├── post | ├── release-1.8.0.md | ├── release-1.</description>
+      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called scgdoc and is supported by the Scientific Computing Group at MLZ. The theme is heavilly based on following projects
+ hugo-theme-learn - Documentation theme for Hugo docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a relatively standard Hugo blog/personal site layout:
+. └── content ├── post | ├── release-1.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ Install Hugo  Downloads latest hugo from here. Archive will contain single binar
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/whats-next/</guid>
-      <description>What&amp;rsquo;s next Resolve few remaining hugo-related technical issues  Occasional failures during side bar generation Less verbose shortcode for embedded Python scripts Math expressions in Latex inlined  Create final BornAgain thema for Hugo  Design BornAgain thema  Design layout, main landing page, color schema, polish css Pay attention to responsiveness Gallery, screenshot section  Provide additional Hugo magic  Automotize new release publishing (e.g. BornAgain version number in download links) Provide documentation versioning (is it still necessary?</description>
+      <description>What&amp;rsquo;s next Resolve few remaining hugo-related technical issues  Less verbose shortcode for embedded Python scripts Occasional failures during side bar generation Math expressions in Latex inlined  Create final BornAgain thema for Hugo  Design BornAgain thema  Design layout, main landing page, color schema, polish css Pay attention to responsiveness Gallery, screenshot section  Provide additional Hugo magic  Automotize new release publishing (e.g. BornAgain version number in download links) Provide documentation versioning (is it still necessary?</description>
     </item>
     
   </channel>
