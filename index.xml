@@ -163,6 +163,18 @@ $ &amp;lt;install_dir&amp;gt;/bin/BornAgain  2. Switch to the Sample View</descr
     </item>
     
     <item>
+      <title>BornAgain GUI overview</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-gui/gui-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-gui/gui-overview/</guid>
+      <description>BornAgain GUI overview The basic features of the interface are explained below.
+ Welcome view Instrument View Sample View Simulation View Jobs View  Welcome view When you start BornAgain GUI, you will be presented with the Welcome View, where you can
+ Create new projects Open recent projects    
+  You can use the view selector located on the left vertical panel (1) to change to one of the following views.</description>
+    </item>
+    
+    <item>
       <title>Child2</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/playground/children/child2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
