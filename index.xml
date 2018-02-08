@@ -131,6 +131,19 @@ magnetization = ba.kvector_t(1.0, 0.0, 0.0) &amp;lt;material&amp;gt; = ba.Homoge
     </item>
     
     <item>
+      <title>Quick Start</title>
+      <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-gui/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/working-with-bornagain/working-with-gui/quick-start/</guid>
+      <description>Quick Start This tutorial demonstrates how to run the simulation and get simulated intensity data image in a few mouse clicks.
+1. Run BornAgain Graphical User Interface   
+  Use BornAgain icon located on the desktop (Windows) or on Launchpad (MacOS) to start the GUI.
+For Linux users: run an executable located in BornAgain installation directory from command line:
+$ &amp;lt;install_dir&amp;gt;/bin/BornAgain  2. Switch to the Sample View</description>
+    </item>
+    
+    <item>
       <title>Welcome to BornAgain</title>
       <link>https://scgmlz.github.io/scgdoc-hugo/documentation/bornagain/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
